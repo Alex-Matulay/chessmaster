@@ -16,6 +16,7 @@
     "reviewsCount": 234,
     "featured": true,
     "tags": ["ebook", "fundamentals", "complete-guide", "beginners"],
+    "pdfFile": "chess-fundamentals-ebook.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -36,6 +37,7 @@
     "reviewsCount": 167,
     "featured": true,
     "tags": ["ebook", "openings", "repertoire", "white-and-black"],
+    "pdfFile": "opening-repertoire-guide.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -56,6 +58,7 @@
     "reviewsCount": 412,
     "featured": true,
     "tags": ["cheat-sheet", "reference", "pieces", "printable"],
+    "pdfFile": "piece-values-cheat-sheet.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -76,6 +79,7 @@
     "reviewsCount": 325,
     "featured": false,
     "tags": ["cheat-sheet", "checkmate", "patterns", "visual"],
+    "pdfFile": "checkmate-patterns-cheat-sheet.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -96,6 +100,7 @@
     "reviewsCount": 98,
     "featured": false,
     "tags": ["opening-guide", "italian", "deep-dive", "annotated-games"],
+    "pdfFile": "italian-game-deep-dive.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -116,6 +121,7 @@
     "reviewsCount": 134,
     "featured": false,
     "tags": ["opening-guide", "queens-gambit", "playbook", "strategic"],
+    "pdfFile": "queens-gambit-playbook.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -136,6 +142,7 @@
     "reviewsCount": 189,
     "featured": true,
     "tags": ["bundle", "beginner", "complete", "best-value"],
+    "pdfFile": "complete-beginner-bundle.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   },
@@ -156,6 +163,7 @@
     "reviewsCount": 156,
     "featured": false,
     "tags": ["bundle", "tactics", "puzzles", "training"],
+    "pdfFile": "tactics-training-pack.pdf",
     "stripePriceId": "",
     "paymentLink": ""
   }

@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { FileText, Download, ArrowLeft } from 'lucide-react'
+import { FileText, Download, ArrowLeft, Eye } from 'lucide-react'
 import products from '../data/products.json'
 import { useCart } from '../hooks/useCart'
 import { Badge } from '../components/ui/Badge'
@@ -82,11 +82,23 @@ export function ProductDetailPage() {
               onClick={handleAddToCart}
               disabled={inCart}
               size="lg"
-              className="w-full mb-4"
+              className="w-full mb-3"
               variant={inCart ? 'ghost' : 'primary'}
             >
               {inCart ? 'Added to Cart' : 'Add to Cart'}
             </Button>
+
+            {product.pdfFile && (
+              <a
+                href={`${import.meta.env.BASE_URL}products/${product.pdfFile}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 w-full px-4 py-2.5 mb-4 text-sm font-medium text-emerald-700 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors no-underline"
+              >
+                <Eye size={16} />
+                Preview PDF
+              </a>
+            )}
 
             <div className="space-y-3 text-sm text-slate-600">
               <div className="flex justify-between">
