@@ -32,3 +32,4 @@ Copy `.env.example` to `.env` and add your Stripe publishable key. The app works
 ## Deployment
 
 Deployed automatically to GitHub Pages via GitHub Actions on push to `main`.
+
