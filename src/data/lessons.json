@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "slug": "how-pieces-move",
+    "title": "How Chess Pieces Move",
+    "shortDescription": "Learn the fundamental movements of all six chess pieces.",
+    "description": "Master the basics of chess by understanding how each piece moves across the board. From the powerful Queen to the tricky Knight, this lesson covers everything you need to start playing. You'll learn legal moves, capturing rules, and special moves like castling and en passant.",
+    "instructor": "GM Alexander Petrov",
+    "price": 0,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Chess Basics",
+    "level": "Beginner",
+    "duration": "45 min",
+    "lessonsCount": 8,
+    "rating": 4.9,
+    "reviewsCount": 342,
+    "featured": true,
+    "tags": ["pieces", "movement", "basics", "free"],
+    "curriculum": [
+      {
+        "section": "Introduction to the Board",
+        "lessons": ["The 64 Squares", "Ranks and Files", "Setting Up the Board"]
+      },
+      {
+        "section": "Piece Movements",
+        "lessons": ["Pawns - The Soul of Chess", "Rooks - Controlling Lines", "Knights - The Tricky Jumper", "Bishops - Diagonal Dominators", "Queen & King - The Royal Pair"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 2,
+    "slug": "board-setup-and-rules",
+    "title": "Board Setup & Rules",
+    "shortDescription": "Everything you need to know to play your first game of chess.",
+    "description": "A comprehensive guide to setting up the chess board correctly, understanding the complete rules of the game, and learning about check, checkmate, stalemate, and draws. Perfect for absolute beginners who want to start playing confidently.",
+    "instructor": "GM Alexander Petrov",
+    "price": 0,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Chess Basics",
+    "level": "Beginner",
+    "duration": "35 min",
+    "lessonsCount": 6,
+    "rating": 4.8,
+    "reviewsCount": 289,
+    "featured": true,
+    "tags": ["setup", "rules", "beginners", "free"],
+    "curriculum": [
+      {
+        "section": "Board Setup",
+        "lessons": ["Correct Board Orientation", "Placing the Pieces", "Common Setup Mistakes"]
+      },
+      {
+        "section": "Rules of Play",
+        "lessons": ["Taking Turns", "Check and Checkmate", "Stalemate and Draws"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 3,
+    "slug": "italian-game",
+    "title": "The Italian Game",
+    "shortDescription": "Master one of the most popular and beginner-friendly openings.",
+    "description": "The Italian Game (1.e4 e5 2.Nf3 Nc6 3.Bc4) is one of the oldest and most popular chess openings. Learn the key ideas, typical plans, and common traps. This lesson covers the Giuoco Piano, Evans Gambit, and Two Knights Defense variations.",
+    "instructor": "IM Sofia Romano",
+    "price": 1499,
+    "originalPrice": 2499,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Openings",
+    "level": "Beginner",
+    "duration": "1h 15min",
+    "lessonsCount": 10,
+    "rating": 4.7,
+    "reviewsCount": 178,
+    "featured": true,
+    "tags": ["opening", "italian", "e4", "classical"],
+    "curriculum": [
+      {
+        "section": "Introduction",
+        "lessons": ["Why Play the Italian?", "Move Order and Setup"]
+      },
+      {
+        "section": "Main Lines",
+        "lessons": ["Giuoco Piano", "Giuoco Pianissimo", "Evans Gambit", "Two Knights Defense"]
+      },
+      {
+        "section": "Practical Play",
+        "lessons": ["Common Traps to Watch For", "Middlegame Plans", "Model Games", "Practice Positions"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 4,
+    "slug": "queens-gambit",
+    "title": "The Queen's Gambit",
+    "shortDescription": "Learn the strategic Queen's Gambit opening system.",
+    "description": "Dive into the Queen's Gambit (1.d4 d5 2.c4), one of the most respected openings in chess. Understand the strategic ideas behind offering the c-pawn, learn both the accepted and declined variations, and develop a solid positional understanding.",
+    "instructor": "IM Sofia Romano",
+    "price": 1499,
+    "originalPrice": 2499,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Openings",
+    "level": "Intermediate",
+    "duration": "1h 30min",
+    "lessonsCount": 12,
+    "rating": 4.8,
+    "reviewsCount": 215,
+    "featured": false,
+    "tags": ["opening", "queens-gambit", "d4", "strategic"],
+    "curriculum": [
+      {
+        "section": "Foundations",
+        "lessons": ["The Gambit Idea", "Why 2.c4?", "Pawn Structure Basics"]
+      },
+      {
+        "section": "Queen's Gambit Declined",
+        "lessons": ["Orthodox Defense", "Ragozin Defense", "Tartakower Variation"]
+      },
+      {
+        "section": "Queen's Gambit Accepted",
+        "lessons": ["Taking the Pawn", "Classical Lines", "Modern Approaches"]
+      },
+      {
+        "section": "Practice",
+        "lessons": ["Key Middlegame Plans", "Famous Games", "Test Your Knowledge"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 5,
+    "slug": "forks-and-pins",
+    "title": "Forks & Pins",
+    "shortDescription": "Master the two most powerful tactical motifs in chess.",
+    "description": "Forks and pins are the bread and butter of chess tactics. A fork attacks two pieces at once, while a pin restricts a piece from moving. Learn to spot these patterns instantly and win material in every game you play.",
+    "instructor": "FM David Chen",
+    "price": 999,
+    "originalPrice": 1999,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Tactics",
+    "level": "Beginner",
+    "duration": "1h",
+    "lessonsCount": 9,
+    "rating": 4.9,
+    "reviewsCount": 267,
+    "featured": true,
+    "tags": ["tactics", "forks", "pins", "winning-material"],
+    "curriculum": [
+      {
+        "section": "Forks",
+        "lessons": ["Knight Forks", "Pawn Forks", "Queen and Bishop Forks", "Setting Up Forks"]
+      },
+      {
+        "section": "Pins",
+        "lessons": ["Absolute Pins", "Relative Pins", "Pin and Win Patterns"]
+      },
+      {
+        "section": "Combined Practice",
+        "lessons": ["Fork or Pin? Choosing the Right Tactic", "50 Practice Puzzles"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 6,
+    "slug": "discovered-attacks",
+    "title": "Discovered Attacks",
+    "shortDescription": "Unleash devastating discovered attacks and double checks.",
+    "description": "A discovered attack occurs when one piece moves to reveal an attack from another piece behind it. When the discovered attack is a check, it becomes the deadly discovered check or even double check. Learn to set up and execute these powerful tactical blows.",
+    "instructor": "FM David Chen",
+    "price": 999,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Tactics",
+    "level": "Intermediate",
+    "duration": "50 min",
+    "lessonsCount": 7,
+    "rating": 4.6,
+    "reviewsCount": 143,
+    "featured": false,
+    "tags": ["tactics", "discovered-attack", "double-check"],
+    "curriculum": [
+      {
+        "section": "Discovered Attacks",
+        "lessons": ["The Mechanism", "Setting Up Discoveries", "Discovered Attack Patterns"]
+      },
+      {
+        "section": "Discovered & Double Check",
+        "lessons": ["Discovered Check", "The Lethal Double Check", "Famous Examples"]
+      },
+      {
+        "section": "Practice",
+        "lessons": ["30 Practice Puzzles"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 7,
+    "slug": "king-and-pawn-endings",
+    "title": "King & Pawn Endings",
+    "shortDescription": "Essential endgame knowledge every chess player must know.",
+    "description": "King and pawn endings are the foundation of all chess endgames. Learn the rule of the square, opposition, key squares, and pawn promotion techniques. Understanding these endings will improve your overall chess significantly.",
+    "instructor": "GM Alexander Petrov",
+    "price": 1299,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Endgame",
+    "level": "Intermediate",
+    "duration": "1h 10min",
+    "lessonsCount": 10,
+    "rating": 4.7,
+    "reviewsCount": 156,
+    "featured": false,
+    "tags": ["endgame", "king-pawn", "opposition", "promotion"],
+    "curriculum": [
+      {
+        "section": "Fundamentals",
+        "lessons": ["The Rule of the Square", "Opposition", "Key Squares"]
+      },
+      {
+        "section": "Pawn Endings",
+        "lessons": ["Single Pawn Endings", "Passed Pawns", "Pawn Breakthroughs", "Outside Passed Pawn"]
+      },
+      {
+        "section": "Advanced Concepts",
+        "lessons": ["Triangulation", "Zugzwang", "Practical Examples"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 8,
+    "slug": "basic-checkmates",
+    "title": "Basic Checkmates",
+    "shortDescription": "Learn to deliver checkmate with different piece combinations.",
+    "description": "Can you checkmate with King and Queen vs King? What about King and Rook? Learn the essential checkmating patterns that every chess player must know. This lesson covers systematic techniques to force checkmate with minimal material.",
+    "instructor": "FM David Chen",
+    "price": 799,
+    "originalPrice": 1299,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Endgame",
+    "level": "Beginner",
+    "duration": "55 min",
+    "lessonsCount": 8,
+    "rating": 4.8,
+    "reviewsCount": 198,
+    "featured": false,
+    "tags": ["endgame", "checkmate", "technique", "essential"],
+    "curriculum": [
+      {
+        "section": "Queen Checkmates",
+        "lessons": ["King + Queen vs King", "The Box Method", "Avoiding Stalemate"]
+      },
+      {
+        "section": "Rook Checkmates",
+        "lessons": ["King + Rook vs King", "The Lawnmower Method"]
+      },
+      {
+        "section": "Two Piece Checkmates",
+        "lessons": ["Two Rooks Checkmate", "Two Bishops Checkmate", "Practice Positions"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  }
+]
