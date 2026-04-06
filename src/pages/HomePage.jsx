@@ -20,10 +20,9 @@ export function HomePage() {
     if (!email || submitting) return
     setSubmitting(true)
     try {
-      await fetch('https://formsubmit.co/ajax/sani.matulay@gmail.com', {
+      await fetch('https://script.google.com/macros/s/AKfycbw8NYGELNyr2za_p9K_oCKNMFAWNesJzkto0ui8Co4RybBEHhTnXM_85ZAe98chSKeA/exec', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ email, _subject: 'New ChessMaster Subscriber', _next: 'https://alex-matulay.github.io/chessmaster/' }),
+        body: JSON.stringify({ email }),
       })
       setSubmitted(true)
       setEmail('')
