@@ -23,7 +23,7 @@ export function HomePage() {
       await fetch('https://formsubmit.co/ajax/sani.matulay@gmail.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ email, _subject: 'New ChessMaster Subscriber' }),
+        body: JSON.stringify({ email, _subject: 'New ChessMaster Subscriber', _next: 'https://alex-matulay.github.io/chessmaster/' }),
       })
       setSubmitted(true)
       setEmail('')
