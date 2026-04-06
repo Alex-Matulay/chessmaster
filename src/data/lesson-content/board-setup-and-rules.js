@@ -287,13 +287,13 @@ export const lessonContent = {
           type: 'board',
           caption: 'Stalemate! It is Black\'s turn, but the Black King on a8 has no legal moves and is NOT in check. The game is a draw.',
           position: {
-            a6: 'Q', c7: 'K',
+            b6: 'Q', c8: 'K',
             a8: 'k',
           }
         },
         {
           type: 'text',
-          value: 'In the diagram above, the Black King on a8 cannot move to a7 or b8 because the White Queen controls those squares, and it cannot move to b7 because the White King controls that square. However, the Black King is **not in check** -- the Queen is not directly attacking it. Since Black has no pieces other than the King and no legal moves, this is **stalemate** and the game is a draw.'
+          value: 'In the diagram above, the Black King on a8 cannot move to a7 because the White Queen on b6 controls that square, and it cannot move to b8 or b7 because those squares are controlled by the White King and Queen. However, the Black King is **not in check** -- the Queen on b6 does not attack a8. Since Black has no pieces other than the King and no legal moves, this is **stalemate** and the game is a draw.'
         },
         {
           type: 'text',

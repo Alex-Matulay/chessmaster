@@ -282,5 +282,125 @@
     ],
     "stripePriceId": "",
     "paymentLink": ""
+  },
+  {
+    "id": 9,
+    "slug": "piece-values-and-trades",
+    "title": "Piece Values & Trading",
+    "shortDescription": "Understand piece values, material counting, and when to trade.",
+    "description": "Learn the relative value of each chess piece and how to count material advantage. Discover when to trade pieces, when to avoid trades, and when piece activity matters more than the point count. Essential knowledge for making smart decisions at the board.",
+    "instructor": "GM Alexander Petrov",
+    "price": 0,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Chess Basics",
+    "level": "Beginner",
+    "duration": "40 min",
+    "lessonsCount": 8,
+    "rating": 4.8,
+    "reviewsCount": 234,
+    "featured": true,
+    "tags": ["basics", "piece-values", "material", "trading"],
+    "curriculum": [
+      {
+        "section": "Material Basics",
+        "lessons": ["Understanding Piece Values", "Counting Material"]
+      },
+      {
+        "section": "Piece Comparison",
+        "lessons": ["Knights vs Bishops", "The Exchange"]
+      },
+      {
+        "section": "Trading Strategy",
+        "lessons": ["When to Trade Pieces", "When NOT to Trade"]
+      },
+      {
+        "section": "Advanced Concepts",
+        "lessons": ["Piece Activity Over Material", "Practice: Material Decisions"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 10,
+    "slug": "opening-repertoire",
+    "title": "Building Your Opening Repertoire",
+    "shortDescription": "Build a complete opening repertoire for both White and Black.",
+    "description": "Stop guessing in the opening! This lesson gives you a complete repertoire for both colors. Play 1.e4 as White with the Italian Game system, and respond to 1.e4 with 1...e5 and 1.d4 with 1...d5. Each line includes key ideas, typical plans, and practical advice for beginners.",
+    "instructor": "IM Sofia Romano",
+    "price": 0,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Openings",
+    "level": "Beginner",
+    "duration": "50 min",
+    "lessonsCount": 8,
+    "rating": 4.7,
+    "reviewsCount": 167,
+    "featured": true,
+    "tags": ["openings", "repertoire", "white", "black", "beginners"],
+    "curriculum": [
+      {
+        "section": "Repertoire Basics",
+        "lessons": ["What is an Opening Repertoire?", "Opening Principles"]
+      },
+      {
+        "section": "Playing White",
+        "lessons": ["Your White Repertoire: 1.e4", "Facing the Sicilian: 2.Nc3"]
+      },
+      {
+        "section": "Playing Black",
+        "lessons": ["Your Black Repertoire vs 1.e4", "Your Black Repertoire vs 1.d4"]
+      },
+      {
+        "section": "Practical Tips",
+        "lessons": ["Building Good Opening Habits", "Your Complete Repertoire Summary"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
+  },
+  {
+    "id": 11,
+    "slug": "tactics-training",
+    "title": "Tactics Training",
+    "shortDescription": "Sharpen your tactical vision with essential patterns and puzzles.",
+    "description": "Sharpen your tactical vision with essential patterns including skewers, deflections, decoys, back rank tactics, and multi-move combinations. Each topic includes clear explanations and practice puzzles to test your skills.",
+    "instructor": "FM David Chen",
+    "price": 0,
+    "originalPrice": null,
+    "currency": "usd",
+    "thumbnail": null,
+    "category": "Tactics",
+    "level": "Intermediate",
+    "duration": "1h",
+    "lessonsCount": 8,
+    "rating": 4.7,
+    "reviewsCount": 156,
+    "featured": false,
+    "tags": ["tactics", "puzzles", "skewers", "combinations"],
+    "curriculum": [
+      {
+        "section": "Tactical Foundations",
+        "lessons": ["What Are Chess Tactics?", "Pattern Recognition"]
+      },
+      {
+        "section": "Core Tactics",
+        "lessons": ["Skewers", "Deflection and Decoy"]
+      },
+      {
+        "section": "Checkmate Patterns",
+        "lessons": ["Back Rank Tactics", "Removing the Guard"]
+      },
+      {
+        "section": "Advanced Tactics",
+        "lessons": ["Multi-Move Combinations", "Puzzle Rush: Find the Best Move"]
+      }
+    ],
+    "stripePriceId": "",
+    "paymentLink": ""
   }
 ]

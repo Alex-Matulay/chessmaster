@@ -18,7 +18,6 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Learn</h3>
             <ul className="space-y-2 list-none p-0 m-0">
               <li><Link to="/lessons" className="text-sm text-slate-400 hover:text-white no-underline transition-colors">All Lessons</Link></li>
-              <li><Link to="/products" className="text-sm text-slate-400 hover:text-white no-underline transition-colors">Products</Link></li>
             </ul>
           </div>
 

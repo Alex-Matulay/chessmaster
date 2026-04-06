@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Hero } from '../components/home/Hero'
 import { FeaturedLessons } from '../components/home/FeaturedLessons'
-import { FeaturedProducts } from '../components/home/FeaturedProducts'
 import { Users, BookOpen, Award, TrendingUp, CheckCircle } from 'lucide-react'
 
 const stats = [
@@ -54,7 +53,6 @@ export function HomePage() {
       </div>
 
       <FeaturedLessons />
-      <FeaturedProducts />
 
       <section className="bg-gradient-to-r from-emerald-600 to-emerald-700 py-16">
         <div className="max-w-3xl mx-auto px-4 text-center text-white">

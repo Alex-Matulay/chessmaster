@@ -151,14 +151,14 @@ export const lessonContent = {
           type: 'board',
           caption: 'Another common stalemate trap -- the Queen is too close and takes away every square',
           position: {
-            b6: 'K', b5: 'Q',
+            c6: 'K', b6: 'Q',
             a8: 'k',
           },
-          highlights: ['b5', 'b6']
+          highlights: ['b6', 'c6']
         },
         {
           type: 'text',
-          value: 'Here the black King on a8 has no legal moves (a7, b8, and b7 are all controlled) but is not in check. Stalemate again!'
+          value: 'Here the black King on a8 has no legal moves (a7 and b7 are controlled by the Queen and King, and b8 is controlled by the Queen) but is not in check. Stalemate again!'
         },
         {
           type: 'text',
@@ -274,9 +274,9 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'White takes opposition on d6, forcing Ke8, then Ra8# is checkmate',
+          caption: 'White takes opposition on e6, forcing Kd8 or Kf8, then Ra8# is checkmate',
           position: {
-            d6: 'K', a8: 'R',
+            e6: 'K', a8: 'R',
             e8: 'k',
           },
           highlights: ['a8']
@@ -504,10 +504,10 @@ export const lessonContent = {
           type: 'board',
           caption: 'Checkmate! The King is trapped in the corner with no escape',
           position: {
-            b6: 'K', a4: 'B', b7: 'B',
+            b6: 'K', c6: 'B', a7: 'B',
             a8: 'k',
           },
-          highlights: ['a4', 'b7']
+          highlights: ['c6', 'a7']
         },
         {
           type: 'text',
@@ -586,19 +586,19 @@ export const lessonContent = {
           type: 'board',
           caption: 'White to move -- deliver checkmate with the Rook',
           position: {
-            f6: 'K', a1: 'R',
+            e6: 'K', a1: 'R',
             e8: 'k',
           }
         },
         {
           type: 'text',
-          value: 'The answer is **Ra8#**. The Rook controls the entire 8th rank, and the White King controls d7, e7, and f7. The black King has no escape squares.'
+          value: 'The answer is **Ra8#**. The Rook controls the entire 8th rank, and the White King on e6 controls d7, e7, and f7. The black King has no escape squares.'
         },
         {
           type: 'board',
           caption: 'Solution: Ra8# -- the standard Rook checkmate pattern',
           position: {
-            f6: 'K', a8: 'R',
+            e6: 'K', a8: 'R',
             e8: 'k',
           },
           highlights: ['a8']

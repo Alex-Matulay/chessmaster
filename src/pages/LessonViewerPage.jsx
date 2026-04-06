@@ -16,6 +16,9 @@ const contentModules = {
   'discovered-attacks': () => import('../data/lesson-content/discovered-attacks.js'),
   'king-and-pawn-endings': () => import('../data/lesson-content/king-and-pawn-endings.js'),
   'basic-checkmates': () => import('../data/lesson-content/basic-checkmates.js'),
+  'piece-values-and-trades': () => import('../data/lesson-content/piece-values-and-trades.js'),
+  'opening-repertoire': () => import('../data/lesson-content/opening-repertoire.js'),
+  'tactics-training': () => import('../data/lesson-content/tactics-training.js'),
 }
 
 const PROGRESS_KEY = 'chessmaster-lesson-progress'

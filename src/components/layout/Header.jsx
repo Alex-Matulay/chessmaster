@@ -1,17 +1,14 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { ShoppingCart, Menu, X, Crown } from 'lucide-react'
-import { useCart } from '../../hooks/useCart'
+import { Menu, X, Crown } from 'lucide-react'
 
-export function Header({ onCartClick }) {
+export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
-  const { cartCount } = useCart()
   const location = useLocation()
 
   const links = [
     { to: '/', label: 'Home' },
     { to: '/lessons', label: 'Lessons' },
-    { to: '/products', label: 'Products' },
   ]
 
   const isActive = (path) => location.pathname === path
@@ -39,26 +36,12 @@ export function Header({ onCartClick }) {
             ))}
           </nav>
 
-          <div className="flex items-center gap-4">
-            <button
-              onClick={onCartClick}
-              className="relative p-2 text-slate-600 hover:text-slate-900 transition-colors cursor-pointer bg-transparent border-none"
-            >
-              <ShoppingCart size={22} />
-              {cartCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-emerald-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-semibold">
-                  {cartCount}
-                </span>
-              )}
-            </button>
-
-            <button
-              className="md:hidden p-2 text-slate-600 cursor-pointer bg-transparent border-none"
-              onClick={() => setMobileOpen(!mobileOpen)}
-            >
-              {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-            </button>
-          </div>
+          <button
+            className="md:hidden p-2 text-slate-600 cursor-pointer bg-transparent border-none"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+          </button>
         </div>
 
         {mobileOpen && (
