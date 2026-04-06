@@ -81,7 +81,8 @@ function TableBlock({ headers, rows }) {
   )
 }
 
-export function LessonContentRenderer({ content }) {
+export function LessonContentRenderer({ content, lessonSlug, sectionId, boardOffset = 0 }) {
+  let boardIdx = boardOffset
   return (
     <div>
       {content.map((block, i) => {
@@ -92,8 +93,11 @@ export function LessonContentRenderer({ content }) {
             return <TipBlock key={i} value={block.value} />
           case 'definition':
             return <DefinitionBlock key={i} term={block.term} value={block.value} />
-          case 'board':
-            return <ChessBoard key={i} position={block.position} highlights={block.highlights} caption={block.caption} />
+          case 'board': {
+            const imageSrc = lessonSlug ? `boards/${lessonSlug}__${sectionId}__${boardIdx}.svg` : null
+            boardIdx++
+            return <ChessBoard key={i} imageSrc={imageSrc} caption={block.caption} />
+          }
           case 'list':
             return <ListBlock key={i} items={block.items} />
           case 'table':

@@ -209,7 +209,12 @@ export function LessonViewerPage() {
             </div>
 
             <div className="mb-8">
-              <LessonContentRenderer content={activeSection.content} />
+              <LessonContentRenderer
+                content={activeSection.content}
+                lessonSlug={slug}
+                sectionId={activeSection.id}
+                boardOffset={sections.slice(0, activeIndex).reduce((sum, s) => sum + s.content.filter(b => b.type === 'board').length, 0)}
+              />
             </div>
 
             {/* Navigation buttons */}

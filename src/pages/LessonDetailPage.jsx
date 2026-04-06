@@ -1,16 +1,13 @@
 import { useParams, Link } from 'react-router-dom'
 import { Clock, BookOpen, User, BarChart3, ArrowLeft, Play } from 'lucide-react'
 import lessons from '../data/lessons.json'
-import { useCart } from '../hooks/useCart'
 import { Badge } from '../components/ui/Badge'
 import { Button } from '../components/ui/Button'
 import { StarRating } from '../components/ui/StarRating'
-import { PriceTag } from '../components/ui/PriceTag'
 import { CurriculumAccordion } from '../components/lessons/CurriculumAccordion'
 
 export function LessonDetailPage() {
   const { slug } = useParams()
-  const { addItem, items } = useCart()
   const lesson = lessons.find((l) => l.slug === slug)
 
   if (!lesson) {
@@ -20,19 +17,6 @@ export function LessonDetailPage() {
         <Link to="/lessons" className="text-emerald-600 hover:text-emerald-700">Back to Lessons</Link>
       </div>
     )
-  }
-
-  const inCart = items.some((item) => item.id === lesson.id && item.itemType === 'lesson')
-
-  const handleAddToCart = () => {
-    addItem({
-      id: lesson.id,
-      title: lesson.title,
-      price: lesson.price,
-      itemType: 'lesson',
-      slug: lesson.slug,
-      paymentLink: lesson.paymentLink,
-    })
   }
 
   const totalLessons = lesson.curriculum.reduce((sum, s) => sum + s.lessons.length, 0)
@@ -77,33 +61,13 @@ export function LessonDetailPage() {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-            <div className="mb-4">
-              <PriceTag price={lesson.price} originalPrice={lesson.originalPrice} />
-            </div>
+            <p className="text-2xl font-bold text-emerald-600 mb-4">Free</p>
 
-            {lesson.originalPrice && (
-              <p className="text-sm text-emerald-600 font-medium mb-4">
-                Save {Math.round((1 - lesson.price / lesson.originalPrice) * 100)}% off
-              </p>
-            )}
-
-            <Link to={`/lessons/${lesson.slug}/learn`} className="no-underline block mb-3">
+            <Link to={`/lessons/${lesson.slug}/learn`} className="no-underline block mb-4">
               <Button size="lg" className="w-full">
                 <Play size={16} /> Start Lesson
               </Button>
             </Link>
-
-            {lesson.price > 0 && (
-              <Button
-                onClick={handleAddToCart}
-                disabled={inCart}
-                size="lg"
-                className="w-full mb-4"
-                variant={inCart ? 'ghost' : 'outline'}
-              >
-                {inCart ? 'Added to Cart' : 'Add to Cart'}
-              </Button>
-            )}
 
             <div className="space-y-3 text-sm text-slate-600">
               <div className="flex justify-between">

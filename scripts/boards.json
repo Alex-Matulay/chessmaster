@@ -1,0 +1,4511 @@
+[
+  {
+    "id": "basic-checkmates__king-and-queen-vs-king__0",
+    "lesson": "basic-checkmates",
+    "section": "king-and-queen-vs-king",
+    "caption": "Starting position -- the black King is in the center and must be driven to the edge",
+    "position": {
+      "e1": "K",
+      "d1": "Q",
+      "e5": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__king-and-queen-vs-king__1",
+    "lesson": "basic-checkmates",
+    "section": "king-and-queen-vs-king",
+    "caption": "The Queen on e4 cuts the black King off from the bottom half of the board",
+    "position": {
+      "g1": "K",
+      "e4": "Q",
+      "d6": "k"
+    },
+    "highlights": [
+      "a4",
+      "b4",
+      "c4",
+      "d4",
+      "e4",
+      "f4",
+      "g4",
+      "h4"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-box-method__2",
+    "lesson": "basic-checkmates",
+    "section": "the-box-method",
+    "caption": "Step 1: Queen on d5 creates a box -- the black King is confined to the top-right area",
+    "position": {
+      "e1": "K",
+      "d5": "Q",
+      "g7": "k"
+    },
+    "highlights": [
+      "d5",
+      "d6",
+      "d7",
+      "d8",
+      "e5",
+      "f5",
+      "g5",
+      "h5"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-box-method__3",
+    "lesson": "basic-checkmates",
+    "section": "the-box-method",
+    "caption": "Step 2: White King advances to f3, maintaining the box with the Queen",
+    "position": {
+      "f3": "K",
+      "d5": "Q",
+      "g7": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__the-box-method__4",
+    "lesson": "basic-checkmates",
+    "section": "the-box-method",
+    "caption": "Step 3: Shrink the box -- Queen moves to d7, pushing the King to the 8th rank",
+    "position": {
+      "f5": "K",
+      "d7": "Q",
+      "g8": "k"
+    },
+    "highlights": [
+      "d7",
+      "d8",
+      "e7",
+      "f7",
+      "g7",
+      "h7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-box-method__5",
+    "lesson": "basic-checkmates",
+    "section": "the-box-method",
+    "caption": "Step 4: Bring the King closer for the final checkmate",
+    "position": {
+      "f6": "K",
+      "d7": "Q",
+      "h8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__the-box-method__6",
+    "lesson": "basic-checkmates",
+    "section": "the-box-method",
+    "caption": "Checkmate! The Queen delivers the final blow on g7",
+    "position": {
+      "f6": "K",
+      "g7": "Q",
+      "h8": "k"
+    },
+    "highlights": [
+      "g7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__avoiding-stalemate__7",
+    "lesson": "basic-checkmates",
+    "section": "avoiding-stalemate",
+    "caption": "STALEMATE! Black to move has no legal moves but is NOT in check -- the game is a draw",
+    "position": {
+      "f6": "K",
+      "f7": "Q",
+      "h8": "k"
+    },
+    "highlights": [
+      "f7",
+      "f6"
+    ]
+  },
+  {
+    "id": "basic-checkmates__avoiding-stalemate__8",
+    "lesson": "basic-checkmates",
+    "section": "avoiding-stalemate",
+    "caption": "Another common stalemate trap -- the Queen is too close and takes away every square",
+    "position": {
+      "b6": "K",
+      "b5": "Q",
+      "a8": "k"
+    },
+    "highlights": [
+      "b5",
+      "b6"
+    ]
+  },
+  {
+    "id": "basic-checkmates__avoiding-stalemate__9",
+    "lesson": "basic-checkmates",
+    "section": "avoiding-stalemate",
+    "caption": "Safe technique: place the Queen a Knight's move away from the enemy King, then bring your King up",
+    "position": {
+      "e6": "K",
+      "f7": "Q",
+      "h8": "k",
+      "g8": "*",
+      "h7": "*"
+    },
+    "highlights": [
+      "g8",
+      "h7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__avoiding-stalemate__10",
+    "lesson": "basic-checkmates",
+    "section": "avoiding-stalemate",
+    "caption": "Correct: Queen on g6 gives the King h8 as a legal square, while White's King approaches",
+    "position": {
+      "e6": "K",
+      "g6": "Q",
+      "h8": "k"
+    },
+    "highlights": [
+      "g6"
+    ]
+  },
+  {
+    "id": "basic-checkmates__king-and-rook-vs-king__11",
+    "lesson": "basic-checkmates",
+    "section": "king-and-rook-vs-king",
+    "caption": "Starting position -- the Rook cuts off the 5th rank, confining the black King",
+    "position": {
+      "e1": "K",
+      "a5": "R",
+      "e7": "k"
+    },
+    "highlights": [
+      "a5",
+      "b5",
+      "c5",
+      "d5",
+      "e5",
+      "f5",
+      "g5",
+      "h5"
+    ]
+  },
+  {
+    "id": "basic-checkmates__king-and-rook-vs-king__12",
+    "lesson": "basic-checkmates",
+    "section": "king-and-rook-vs-king",
+    "caption": "White King on e5 takes opposition against the black King on e7 -- the Rook is ready",
+    "position": {
+      "e5": "K",
+      "a6": "R",
+      "e7": "k"
+    },
+    "highlights": [
+      "e5",
+      "e7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__king-and-rook-vs-king__13",
+    "lesson": "basic-checkmates",
+    "section": "king-and-rook-vs-king",
+    "caption": "After Kd7, White plays Ra7+ forcing the King to the 8th rank",
+    "position": {
+      "e5": "K",
+      "a7": "R",
+      "d7": "k"
+    },
+    "highlights": [
+      "a7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__king-and-rook-vs-king__14",
+    "lesson": "basic-checkmates",
+    "section": "king-and-rook-vs-king",
+    "caption": "The black King is pushed to the 8th rank -- checkmate is near",
+    "position": {
+      "e6": "K",
+      "a7": "R",
+      "d8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__king-and-rook-vs-king__15",
+    "lesson": "basic-checkmates",
+    "section": "king-and-rook-vs-king",
+    "caption": "White takes opposition on d6, forcing Ke8, then Ra8# is checkmate",
+    "position": {
+      "d6": "K",
+      "a8": "R",
+      "e8": "k"
+    },
+    "highlights": [
+      "a8"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-lawnmower-method__16",
+    "lesson": "basic-checkmates",
+    "section": "the-lawnmower-method",
+    "caption": "Step 1: Rook on a5 cuts off the 5th rank. Rook on b1 is ready to help.",
+    "position": {
+      "e1": "K",
+      "a5": "R",
+      "b1": "R",
+      "e6": "k"
+    },
+    "highlights": [
+      "a5",
+      "b5",
+      "c5",
+      "d5",
+      "e5",
+      "f5",
+      "g5",
+      "h5"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-lawnmower-method__17",
+    "lesson": "basic-checkmates",
+    "section": "the-lawnmower-method",
+    "caption": "Step 2: Rb6+ pushes the King to the 7th rank",
+    "position": {
+      "e1": "K",
+      "a5": "R",
+      "b6": "R",
+      "e7": "k"
+    },
+    "highlights": [
+      "b6"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-lawnmower-method__18",
+    "lesson": "basic-checkmates",
+    "section": "the-lawnmower-method",
+    "caption": "Step 3: Ra7+ pushes the King to the 8th rank",
+    "position": {
+      "e1": "K",
+      "a7": "R",
+      "b6": "R",
+      "e8": "k"
+    },
+    "highlights": [
+      "a7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-lawnmower-method__19",
+    "lesson": "basic-checkmates",
+    "section": "the-lawnmower-method",
+    "caption": "Step 4: Rb8# is checkmate! The lawnmower is complete.",
+    "position": {
+      "e1": "K",
+      "a7": "R",
+      "b8": "R",
+      "e8": "k"
+    },
+    "highlights": [
+      "b8"
+    ]
+  },
+  {
+    "id": "basic-checkmates__the-lawnmower-method__20",
+    "lesson": "basic-checkmates",
+    "section": "the-lawnmower-method",
+    "caption": "If the King approaches (Kd6), slide the Rook away: Ra5 moves to h5",
+    "position": {
+      "e1": "K",
+      "h5": "R",
+      "b4": "R",
+      "d6": "k"
+    },
+    "highlights": [
+      "h5"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-rooks-checkmate__21",
+    "lesson": "basic-checkmates",
+    "section": "two-rooks-checkmate",
+    "caption": "A practical starting position with two Rooks vs King",
+    "position": {
+      "a1": "R",
+      "h1": "R",
+      "e1": "K",
+      "d5": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__two-rooks-checkmate__22",
+    "lesson": "basic-checkmates",
+    "section": "two-rooks-checkmate",
+    "caption": "Rooks on the 4th and 5th ranks create a wall -- the King is confined",
+    "position": {
+      "e1": "K",
+      "a5": "R",
+      "h6": "R",
+      "d7": "k"
+    },
+    "highlights": [
+      "a5",
+      "b5",
+      "c5",
+      "d5",
+      "e5",
+      "f5",
+      "g5",
+      "h5",
+      "a6",
+      "b6",
+      "c6",
+      "d6",
+      "e6",
+      "f6",
+      "g6",
+      "h6"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-rooks-checkmate__23",
+    "lesson": "basic-checkmates",
+    "section": "two-rooks-checkmate",
+    "caption": "Ra7+ forces the King to the back rank",
+    "position": {
+      "e1": "K",
+      "a7": "R",
+      "h6": "R",
+      "d8": "k"
+    },
+    "highlights": [
+      "a7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-rooks-checkmate__24",
+    "lesson": "basic-checkmates",
+    "section": "two-rooks-checkmate",
+    "caption": "Rh8# -- checkmate! One Rook checks, the other guards the 7th rank",
+    "position": {
+      "e1": "K",
+      "a7": "R",
+      "h8": "R",
+      "d8": "k"
+    },
+    "highlights": [
+      "h8"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-bishops-checkmate__25",
+    "lesson": "basic-checkmates",
+    "section": "two-bishops-checkmate",
+    "caption": "Two Bishops on adjacent diagonals form a wall -- the black King is confined to the corner",
+    "position": {
+      "d4": "K",
+      "c3": "B",
+      "d3": "B",
+      "b1": "k"
+    },
+    "highlights": [
+      "c3",
+      "d3"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-bishops-checkmate__26",
+    "lesson": "basic-checkmates",
+    "section": "two-bishops-checkmate",
+    "caption": "Bishops form a diagonal barrier in the center -- the King is restricted to the upper-left area",
+    "position": {
+      "e4": "K",
+      "c4": "B",
+      "d5": "B",
+      "b7": "k"
+    },
+    "highlights": [
+      "c4",
+      "d5",
+      "b3",
+      "a2",
+      "d4",
+      "e3",
+      "c6",
+      "b7",
+      "e6",
+      "f7",
+      "g8"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-bishops-checkmate__27",
+    "lesson": "basic-checkmates",
+    "section": "two-bishops-checkmate",
+    "caption": "The barrier tightens -- Bishops on b5 and c5 push the King toward the a8 corner",
+    "position": {
+      "c6": "K",
+      "b5": "B",
+      "c5": "B",
+      "a7": "k"
+    },
+    "highlights": [
+      "b5",
+      "c5"
+    ]
+  },
+  {
+    "id": "basic-checkmates__two-bishops-checkmate__28",
+    "lesson": "basic-checkmates",
+    "section": "two-bishops-checkmate",
+    "caption": "Checkmate! The King is trapped in the corner with no escape",
+    "position": {
+      "b6": "K",
+      "a4": "B",
+      "b7": "B",
+      "a8": "k"
+    },
+    "highlights": [
+      "a4",
+      "b7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__practice-positions__29",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "White to move -- find checkmate in one move with the Queen",
+    "position": {
+      "g6": "K",
+      "h3": "Q",
+      "h8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__practice-positions__30",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "Solution: Qh7# -- a classic Queen checkmate on the edge",
+    "position": {
+      "g6": "K",
+      "h7": "Q",
+      "h8": "k"
+    },
+    "highlights": [
+      "h7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__practice-positions__31",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "White to move -- what is the WRONG move here?",
+    "position": {
+      "a6": "K",
+      "c5": "Q",
+      "a8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__practice-positions__32",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "Correct: Qb7# delivers checkmate without stalemate",
+    "position": {
+      "a6": "K",
+      "b7": "Q",
+      "a8": "k"
+    },
+    "highlights": [
+      "b7"
+    ]
+  },
+  {
+    "id": "basic-checkmates__practice-positions__33",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "White to move -- deliver checkmate with the Rook",
+    "position": {
+      "f6": "K",
+      "a1": "R",
+      "e8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__practice-positions__34",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "Solution: Ra8# -- the standard Rook checkmate pattern",
+    "position": {
+      "f6": "K",
+      "a8": "R",
+      "e8": "k"
+    },
+    "highlights": [
+      "a8"
+    ]
+  },
+  {
+    "id": "basic-checkmates__practice-positions__35",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "White to move -- finish the lawnmower checkmate",
+    "position": {
+      "e1": "K",
+      "a7": "R",
+      "h6": "R",
+      "f8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "basic-checkmates__practice-positions__36",
+    "lesson": "basic-checkmates",
+    "section": "practice-positions",
+    "caption": "Solution: Rh8# -- the lawnmower is complete",
+    "position": {
+      "e1": "K",
+      "a7": "R",
+      "h8": "R",
+      "f8": "k"
+    },
+    "highlights": [
+      "h8"
+    ]
+  },
+  {
+    "id": "board-setup-and-rules__correct-board-orientation__0",
+    "lesson": "board-setup-and-rules",
+    "section": "correct-board-orientation",
+    "caption": "An empty board oriented correctly -- notice the light square in each player's bottom-right corner",
+    "position": {},
+    "highlights": []
+  },
+  {
+    "id": "board-setup-and-rules__placing-the-pieces__1",
+    "lesson": "board-setup-and-rules",
+    "section": "placing-the-pieces",
+    "caption": "The correct starting position with all 32 pieces placed",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "board-setup-and-rules__common-setup-mistakes__2",
+    "lesson": "board-setup-and-rules",
+    "section": "common-setup-mistakes",
+    "caption": "WRONG -- the King and Queen are swapped! The White Queen is on the dark square e1 instead of light square d1.",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "K",
+      "e1": "Q",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "k",
+      "e8": "q",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "board-setup-and-rules__check-and-checkmate__3",
+    "lesson": "board-setup-and-rules",
+    "section": "check-and-checkmate",
+    "caption": "The Black King on e8 is in check from the White Queen on e5. Black must respond to this threat.",
+    "position": {
+      "e1": "K",
+      "a1": "R",
+      "h1": "R",
+      "e5": "Q",
+      "e8": "k",
+      "a8": "r",
+      "h8": "r",
+      "d8": "q",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p"
+    },
+    "highlights": []
+  },
+  {
+    "id": "board-setup-and-rules__check-and-checkmate__4",
+    "lesson": "board-setup-and-rules",
+    "section": "check-and-checkmate",
+    "caption": "Checkmate! The Black King on h8 is attacked by the White Queen on h7. The King has no escape and no piece can help.",
+    "position": {
+      "h7": "Q",
+      "g6": "K",
+      "h8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "board-setup-and-rules__check-and-checkmate__5",
+    "lesson": "board-setup-and-rules",
+    "section": "check-and-checkmate",
+    "caption": "Back-rank checkmate -- the White Rook on e8 checkmates the Black King trapped behind its own pawns",
+    "position": {
+      "e8": "R",
+      "e1": "K",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "h8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "board-setup-and-rules__stalemate-and-draws__6",
+    "lesson": "board-setup-and-rules",
+    "section": "stalemate-and-draws",
+    "caption": "Stalemate! It is Black's turn, but the Black King on a8 has no legal moves and is NOT in check. The game is a draw.",
+    "position": {
+      "a6": "Q",
+      "c7": "K",
+      "a8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "discovered-attacks__the-mechanism__0",
+    "lesson": "discovered-attacks",
+    "section": "the-mechanism",
+    "caption": "White's Knight on e5 blocks the Bishop on b2. If the Knight moves, the Bishop attacks the Rook on g7.",
+    "position": {
+      "b2": "B",
+      "e5": "N",
+      "g7": "r",
+      "e1": "K",
+      "g8": "k",
+      "a2": "P",
+      "h7": "p"
+    },
+    "highlights": [
+      "b2",
+      "e5",
+      "g7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__the-mechanism__1",
+    "lesson": "discovered-attacks",
+    "section": "the-mechanism",
+    "caption": "After Nf7! -- the Knight forks the King and Queen while the Bishop attacks the Rook. Black cannot deal with both threats.",
+    "position": {
+      "b2": "B",
+      "f7": "N",
+      "g7": "r",
+      "e1": "K",
+      "g8": "k",
+      "d8": "q",
+      "a2": "P",
+      "h7": "p"
+    },
+    "highlights": [
+      "b2",
+      "f7",
+      "g7",
+      "g8",
+      "d8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__setting-up-discoveries__2",
+    "lesson": "discovered-attacks",
+    "section": "setting-up-discoveries",
+    "caption": "A Rook on e1 is aimed at the Black King on e8, but White's own Bishop on e4 blocks the line.",
+    "position": {
+      "e1": "R",
+      "e4": "B",
+      "e8": "k",
+      "a1": "K",
+      "d8": "q",
+      "f2": "P",
+      "g7": "p"
+    },
+    "highlights": [
+      "e1",
+      "e4",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__discovered-attack-patterns__3",
+    "lesson": "discovered-attacks",
+    "section": "discovered-attack-patterns",
+    "caption": "The Bishop on d5 blocks the Rook on d1. Moving the Bishop to attack the Queen reveals the Rook's attack on d7.",
+    "position": {
+      "d1": "R",
+      "d5": "B",
+      "d7": "p",
+      "b6": "q",
+      "e1": "K",
+      "e8": "k",
+      "a2": "P",
+      "h7": "p"
+    },
+    "highlights": [
+      "d1",
+      "d5",
+      "b6",
+      "d7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__discovered-attack-patterns__4",
+    "lesson": "discovered-attacks",
+    "section": "discovered-attack-patterns",
+    "caption": "The Knight on f3 blocks the Bishop on d1. Moving the Knight reveals the Bishop's diagonal toward h5.",
+    "position": {
+      "d1": "B",
+      "f3": "N",
+      "h5": "q",
+      "e1": "K",
+      "e8": "k",
+      "a7": "p",
+      "b7": "p",
+      "g7": "p",
+      "a2": "P",
+      "b2": "P"
+    },
+    "highlights": [
+      "d1",
+      "f3",
+      "h5"
+    ]
+  },
+  {
+    "id": "discovered-attacks__discovered-attack-patterns__5",
+    "lesson": "discovered-attacks",
+    "section": "discovered-attack-patterns",
+    "caption": "The pawn on e5 blocks the Queen on e2. Pushing the pawn reveals the Queen's attack on e7.",
+    "position": {
+      "e2": "Q",
+      "e5": "P",
+      "e7": "r",
+      "d6": "n",
+      "e1": "K",
+      "e8": "k",
+      "a7": "p",
+      "h7": "p",
+      "a2": "P"
+    },
+    "highlights": [
+      "e2",
+      "e5",
+      "e7",
+      "d6"
+    ]
+  },
+  {
+    "id": "discovered-attacks__discovered-check__6",
+    "lesson": "discovered-attacks",
+    "section": "discovered-check",
+    "caption": "White's Bishop on c1 is aimed at h6, but the Knight on e3 blocks... wait, the Rook on a4 is aimed at e4-e8! The Knight on e4 blocks the Rook's line to the Black King.",
+    "position": {
+      "a4": "R",
+      "e4": "N",
+      "e8": "k",
+      "d7": "q",
+      "g1": "K",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "a4",
+      "e4",
+      "e8",
+      "d7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__discovered-check__7",
+    "lesson": "discovered-attacks",
+    "section": "discovered-check",
+    "caption": "Classic discovered check: Bishop on b5 is blocked by Knight on d3. Moving the Knight reveals check.",
+    "position": {
+      "b5": "B",
+      "d3": "N",
+      "e8": "k",
+      "g1": "K",
+      "c7": "r",
+      "f4": "q",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "a2": "P",
+      "g2": "P"
+    },
+    "highlights": [
+      "b5",
+      "d3",
+      "e8",
+      "f4"
+    ]
+  },
+  {
+    "id": "discovered-attacks__the-lethal-double-check__8",
+    "lesson": "discovered-attacks",
+    "section": "the-lethal-double-check",
+    "caption": "White plays Nd6++ (double check). The Knight checks from d6 and the Bishop checks from c4. The King MUST move.",
+    "position": {
+      "c4": "B",
+      "d6": "N",
+      "e8": "k",
+      "d8": "r",
+      "f8": "r",
+      "g1": "K",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P"
+    },
+    "highlights": [
+      "c4",
+      "d6",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__the-lethal-double-check__9",
+    "lesson": "discovered-attacks",
+    "section": "the-lethal-double-check",
+    "caption": "Double check leading to mate: After Nd6++ the King has no safe square. If Kf8, then Qf7#. If Kd7/Kd8, then Qe7# or Qd7#.",
+    "position": {
+      "c4": "B",
+      "d6": "N",
+      "e8": "k",
+      "d1": "Q",
+      "g1": "K",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "c4",
+      "d6",
+      "e8",
+      "d1"
+    ]
+  },
+  {
+    "id": "discovered-attacks__famous-examples__10",
+    "lesson": "discovered-attacks",
+    "section": "famous-examples",
+    "caption": "Anderssen's Immortal Game -- the final position. White has sacrificed massive material but delivers mate with minor pieces.",
+    "position": {
+      "a1": "R",
+      "d1": "N",
+      "e5": "N",
+      "g1": "B",
+      "f6": "B",
+      "a6": "b",
+      "b5": "q",
+      "d7": "p",
+      "g7": "k",
+      "h7": "p",
+      "e7": "P"
+    },
+    "highlights": [
+      "e5",
+      "f6",
+      "g7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__famous-examples__11",
+    "lesson": "discovered-attacks",
+    "section": "famous-examples",
+    "caption": "After Lasker's sacrifices, the Queen infiltrates via discovered lines. White's Rook and Queen coordinate to deliver the final blow.",
+    "position": {
+      "f1": "R",
+      "e1": "R",
+      "h4": "Q",
+      "f6": "N",
+      "e8": "r",
+      "f8": "r",
+      "d8": "q",
+      "g8": "k",
+      "f7": "p",
+      "d7": "p",
+      "a7": "p",
+      "b7": "b",
+      "a2": "P",
+      "b2": "P",
+      "g1": "K"
+    },
+    "highlights": [
+      "h4",
+      "f6",
+      "g8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__famous-examples__12",
+    "lesson": "discovered-attacks",
+    "section": "famous-examples",
+    "caption": "Legal's Mate: After Black captures the Queen with Bxd1, White plays Bxf7+ Ke7, Nd5# -- a discovered attack leads to checkmate!",
+    "position": {
+      "c4": "B",
+      "e5": "N",
+      "c3": "N",
+      "d1": "b",
+      "e1": "K",
+      "a1": "R",
+      "h1": "R",
+      "e8": "k",
+      "d8": "q",
+      "b8": "n",
+      "a8": "r",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d6": "p",
+      "f7": "p",
+      "g6": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "c4",
+      "e5",
+      "c3",
+      "f7",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__13",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 1: White to move. Find the discovered attack that wins Black's Queen. (Hint: move the Knight)",
+    "position": {
+      "d1": "R",
+      "d4": "N",
+      "d8": "q",
+      "e1": "K",
+      "e8": "k",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "d1",
+      "d4",
+      "d8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__14",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 2: White to move. Use the Bishop to unmask a Rook attack on the King.",
+    "position": {
+      "e1": "R",
+      "e4": "B",
+      "e8": "k",
+      "g1": "K",
+      "a5": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e1",
+      "e4",
+      "e8",
+      "a5"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__15",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 3: White to move. The pawn on e5 blocks the Queen's line. Find the winning discovered attack.",
+    "position": {
+      "e2": "Q",
+      "e5": "P",
+      "e7": "b",
+      "d6": "n",
+      "g1": "K",
+      "e8": "k",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e2",
+      "e5",
+      "d6",
+      "e7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__16",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 4: White to move. The Knight on g5 blocks the Queen's diagonal. Win material!",
+    "position": {
+      "d2": "Q",
+      "g5": "N",
+      "b7": "r",
+      "g1": "K",
+      "e8": "k",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "d2",
+      "g5",
+      "b7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__17",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 5: White to move. Find the discovered attack using the Rook on the e-file.",
+    "position": {
+      "e1": "R",
+      "e3": "N",
+      "e7": "q",
+      "g1": "K",
+      "e8": "k",
+      "a7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e1",
+      "e3",
+      "e7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__18",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 6: White to move. Find the discovered check that wins the Queen.",
+    "position": {
+      "a1": "R",
+      "e1": "R",
+      "e4": "N",
+      "e8": "k",
+      "g1": "K",
+      "a5": "q",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e1",
+      "e4",
+      "e8",
+      "a5"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__19",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 7: White to move. Discover check on the diagonal and win material.",
+    "position": {
+      "b5": "B",
+      "d3": "R",
+      "d7": "q",
+      "e8": "k",
+      "g1": "K",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "b5",
+      "d3",
+      "d7",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__20",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 8: White to move. Use a discovered check to win Black's Rook.",
+    "position": {
+      "h1": "R",
+      "h4": "B",
+      "h8": "k",
+      "g1": "K",
+      "c3": "r",
+      "a7": "p",
+      "f7": "p",
+      "g6": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P"
+    },
+    "highlights": [
+      "h1",
+      "h4",
+      "h8",
+      "c3"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__21",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 9: White to move. The Knight can unmask a deadly discovered check.",
+    "position": {
+      "c1": "B",
+      "d2": "N",
+      "h6": "q",
+      "g7": "k",
+      "g1": "K",
+      "f7": "p",
+      "h7": "p",
+      "a7": "p",
+      "b7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P"
+    },
+    "highlights": [
+      "c1",
+      "d2",
+      "h6",
+      "g7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__22",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 10: White to move. Find the discovered check that leads to checkmate.",
+    "position": {
+      "a1": "R",
+      "d1": "Q",
+      "g1": "K",
+      "b1": "N",
+      "f1": "R",
+      "f3": "N",
+      "c4": "B",
+      "e7": "P",
+      "f7": "P",
+      "c6": "n",
+      "f8": "k",
+      "a8": "r",
+      "d8": "r",
+      "b7": "p",
+      "g7": "p",
+      "h7": "p"
+    },
+    "highlights": [
+      "c4",
+      "e7",
+      "f8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__23",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 11: White to move. Deliver double check and find the forced mate.",
+    "position": {
+      "c4": "B",
+      "f4": "N",
+      "e8": "k",
+      "d1": "Q",
+      "g1": "K",
+      "d8": "q",
+      "f8": "r",
+      "a8": "r",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "c4",
+      "f4",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__24",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 12: White to move. Find the double check.",
+    "position": {
+      "e1": "R",
+      "e4": "B",
+      "g6": "N",
+      "e8": "k",
+      "g1": "K",
+      "d8": "q",
+      "f8": "b",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "p",
+      "f7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e1",
+      "e4",
+      "g6",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__25",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 13: White to move. A spectacular double check leads to mate in 2.",
+    "position": {
+      "d1": "R",
+      "d4": "B",
+      "g1": "K",
+      "d8": "r",
+      "g8": "k",
+      "f8": "r",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "h3": "Q",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "d1",
+      "d4",
+      "g8",
+      "h3"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__26",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 14: White to move. Double check with a Knight and Rook combination.",
+    "position": {
+      "f1": "R",
+      "f4": "N",
+      "f8": "k",
+      "g1": "K",
+      "e6": "q",
+      "e8": "r",
+      "g8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "f1",
+      "f4",
+      "f8",
+      "e6"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__27",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 15: White to move. Find the double check that leads to immediate checkmate.",
+    "position": {
+      "h1": "R",
+      "h5": "B",
+      "h8": "k",
+      "g1": "K",
+      "d4": "Q",
+      "g8": "r",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P"
+    },
+    "highlights": [
+      "h1",
+      "h5",
+      "h8",
+      "d4"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__28",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 16: White to move. Win material using a discovered attack on the long diagonal.",
+    "position": {
+      "a1": "B",
+      "d4": "P",
+      "g7": "r",
+      "e1": "K",
+      "g8": "k",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "h7": "p",
+      "c8": "q",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "a1",
+      "d4",
+      "g7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__29",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 17: White to move. Find the discovered attack with a capture.",
+    "position": {
+      "a4": "R",
+      "c4": "N",
+      "h4": "r",
+      "g1": "K",
+      "g8": "k",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "a4",
+      "c4",
+      "h4"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__30",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 18: White to move. Discovered attack wins a piece.",
+    "position": {
+      "c1": "B",
+      "e3": "N",
+      "g5": "n",
+      "g1": "K",
+      "g8": "k",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "h2": "P",
+      "h6": "q"
+    },
+    "highlights": [
+      "c1",
+      "e3",
+      "h6",
+      "g5"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__31",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 19: White to move. A pawn move unleashes a powerful discovery.",
+    "position": {
+      "d1": "Q",
+      "d5": "P",
+      "d8": "r",
+      "g1": "K",
+      "e8": "k",
+      "e6": "n",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "d1",
+      "d5",
+      "d8",
+      "e6"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__32",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 20: White to move. Use the Rook to deliver discovered check and win.",
+    "position": {
+      "a8": "R",
+      "d5": "B",
+      "e8": "k",
+      "g1": "K",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "q",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "a8",
+      "d5",
+      "e8",
+      "d7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__33",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 21: White to move. Find the discovered double attack that wins the exchange.",
+    "position": {
+      "b2": "B",
+      "e5": "N",
+      "g7": "p",
+      "g1": "K",
+      "g8": "k",
+      "a8": "r",
+      "d7": "r",
+      "f7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c8": "b"
+    },
+    "highlights": [
+      "b2",
+      "e5",
+      "d7",
+      "a8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__34",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 22: White to move. A quiet discovered attack wins the game.",
+    "position": {
+      "h1": "R",
+      "h3": "Q",
+      "h5": "N",
+      "h8": "k",
+      "g1": "K",
+      "g8": "r",
+      "f7": "p",
+      "g7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "a7": "p"
+    },
+    "highlights": [
+      "h1",
+      "h3",
+      "h5",
+      "h8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__35",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 23: White to move. A spectacular discovered attack wins immediately.",
+    "position": {
+      "a1": "R",
+      "d1": "Q",
+      "g1": "K",
+      "b1": "N",
+      "f1": "B",
+      "e5": "B",
+      "f6": "N",
+      "d7": "b",
+      "e7": "q",
+      "f7": "p",
+      "g7": "k",
+      "g6": "p",
+      "h7": "p",
+      "a7": "p",
+      "b7": "p"
+    },
+    "highlights": [
+      "e5",
+      "f6",
+      "g7",
+      "e7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__36",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 24: White to move. Find the double check that mates in one.",
+    "position": {
+      "d1": "R",
+      "d3": "B",
+      "g1": "K",
+      "d8": "k",
+      "c8": "r",
+      "e8": "r",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P"
+    },
+    "highlights": [
+      "d1",
+      "d3",
+      "d8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__37",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 25: White to move. Triple threat -- discovered attack wins material and positional advantage.",
+    "position": {
+      "c3": "B",
+      "e5": "P",
+      "f6": "n",
+      "g1": "K",
+      "g8": "k",
+      "h8": "r",
+      "a8": "r",
+      "d8": "q",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "c3",
+      "e5",
+      "f6",
+      "h8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__38",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 26: White to move. A beautiful discovered attack combination wins material.",
+    "position": {
+      "d1": "R",
+      "d3": "N",
+      "d7": "b",
+      "e1": "Q",
+      "g1": "K",
+      "e8": "k",
+      "a8": "r",
+      "h8": "r",
+      "c8": "b",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "d1",
+      "d3",
+      "d7"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__39",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 27: White to move. Discovered check leads to a mating attack.",
+    "position": {
+      "b3": "Q",
+      "e3": "B",
+      "e7": "P",
+      "e8": "k",
+      "g1": "K",
+      "f8": "r",
+      "d8": "q",
+      "a8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e3",
+      "e7",
+      "e8",
+      "b3"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__40",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 28: White to move. Discovered attack with a quiet move wins.",
+    "position": {
+      "a1": "R",
+      "f3": "B",
+      "f8": "r",
+      "g1": "K",
+      "g8": "k",
+      "a3": "q",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "a1",
+      "f3",
+      "a3"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__41",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 29: White to move. Sacrifice and discovered double check leads to forced mate.",
+    "position": {
+      "e1": "R",
+      "e4": "Q",
+      "g1": "K",
+      "f1": "R",
+      "f6": "N",
+      "e8": "k",
+      "d8": "q",
+      "f8": "b",
+      "a8": "r",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "e1",
+      "e4",
+      "f6",
+      "e8"
+    ]
+  },
+  {
+    "id": "discovered-attacks__practice-puzzles__42",
+    "lesson": "discovered-attacks",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 30: White to move. The ultimate discovered attack -- find the move that wins on the spot.",
+    "position": {
+      "a1": "R",
+      "d1": "Q",
+      "g1": "K",
+      "c4": "B",
+      "g5": "N",
+      "e7": "q",
+      "e8": "k",
+      "f8": "b",
+      "a8": "r",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g6": "p",
+      "h7": "p",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P"
+    },
+    "highlights": [
+      "c4",
+      "g5",
+      "e7",
+      "e8"
+    ]
+  },
+  {
+    "id": "forks-and-pins__knight-forks__0",
+    "lesson": "forks-and-pins",
+    "section": "knight-forks",
+    "caption": "Classic Knight fork — the Knight on c7 attacks both the King on e8 and the Rook on a8",
+    "position": {
+      "e8": "k",
+      "a8": "r",
+      "h8": "r",
+      "c7": "N",
+      "e1": "K"
+    },
+    "highlights": [
+      "c7",
+      "e8",
+      "a8"
+    ]
+  },
+  {
+    "id": "forks-and-pins__knight-forks__1",
+    "lesson": "forks-and-pins",
+    "section": "knight-forks",
+    "caption": "The family fork — Knight on d5 attacks the King, Queen, AND Rook at the same time",
+    "position": {
+      "e8": "k",
+      "b6": "q",
+      "f6": "r",
+      "d5": "N",
+      "a2": "P",
+      "b2": "P",
+      "e1": "K"
+    },
+    "highlights": [
+      "d5",
+      "e8",
+      "b6",
+      "f6"
+    ]
+  },
+  {
+    "id": "forks-and-pins__pawn-forks__2",
+    "lesson": "forks-and-pins",
+    "section": "pawn-forks",
+    "caption": "Before the pawn fork — White's pawn on d4 is ready to advance",
+    "position": {
+      "e8": "k",
+      "c5": "n",
+      "e5": "b",
+      "d4": "P",
+      "e1": "K"
+    },
+    "highlights": [
+      "d4",
+      "c5",
+      "e5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__pawn-forks__3",
+    "lesson": "forks-and-pins",
+    "section": "pawn-forks",
+    "caption": "After d4-d5! — the pawn forks the Knight on c5 and the Bishop on e5 (capture squares shown)",
+    "position": {
+      "e8": "k",
+      "c5": "n",
+      "e5": "b",
+      "c6": "x",
+      "e6": "x",
+      "d5": "P",
+      "e1": "K"
+    },
+    "highlights": [
+      "d5",
+      "c6",
+      "e6"
+    ]
+  },
+  {
+    "id": "forks-and-pins__pawn-forks__4",
+    "lesson": "forks-and-pins",
+    "section": "pawn-forks",
+    "caption": "A devastating pawn fork — the e-pawn forks the Knight on d5 and the Bishop on f5",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "d5": "n",
+      "f5": "b",
+      "e4": "P",
+      "d1": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "e4",
+      "d5",
+      "f5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__queen-and-bishop-forks__5",
+    "lesson": "forks-and-pins",
+    "section": "queen-and-bishop-forks",
+    "caption": "Queen fork — the Queen on a4 attacks both the King on e8 and the Rook on a8 along different lines",
+    "position": {
+      "e8": "k",
+      "a8": "r",
+      "f8": "b",
+      "a7": "p",
+      "d7": "p",
+      "a4": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "a4",
+      "e8",
+      "a8"
+    ]
+  },
+  {
+    "id": "forks-and-pins__queen-and-bishop-forks__6",
+    "lesson": "forks-and-pins",
+    "section": "queen-and-bishop-forks",
+    "caption": "Another Queen fork — Qh5 attacks the uncastled King on e8 and the loose pawn on h7",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "f8": "b",
+      "a7": "p",
+      "b7": "p",
+      "g7": "p",
+      "h7": "p",
+      "h5": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "h5",
+      "e8",
+      "h7"
+    ]
+  },
+  {
+    "id": "forks-and-pins__queen-and-bishop-forks__7",
+    "lesson": "forks-and-pins",
+    "section": "queen-and-bishop-forks",
+    "caption": "Bishop fork — the Bishop on c6 attacks the Rook on a8 and the Knight on e4 simultaneously",
+    "position": {
+      "e8": "k",
+      "a8": "r",
+      "h8": "r",
+      "c6": "B",
+      "e4": "n",
+      "e1": "K"
+    },
+    "highlights": [
+      "c6",
+      "a8",
+      "e4"
+    ]
+  },
+  {
+    "id": "forks-and-pins__setting-up-forks__8",
+    "lesson": "forks-and-pins",
+    "section": "setting-up-forks",
+    "caption": "Before — White sacrifices the Bishop on b5 to set up a Knight fork",
+    "position": {
+      "a8": "r",
+      "e8": "k",
+      "c7": "p",
+      "d7": "q",
+      "b5": "B",
+      "d3": "N",
+      "e1": "K"
+    },
+    "highlights": [
+      "b5",
+      "d7"
+    ]
+  },
+  {
+    "id": "forks-and-pins__setting-up-forks__9",
+    "lesson": "forks-and-pins",
+    "section": "setting-up-forks",
+    "caption": "After Bxd7+ Kxd7 — now the Knight can jump to c5, forking the King and Rook!",
+    "position": {
+      "a8": "r",
+      "d7": "k",
+      "c7": "p",
+      "c5": "*",
+      "d3": "N",
+      "e1": "K"
+    },
+    "highlights": [
+      "d3",
+      "c5",
+      "d7",
+      "a8"
+    ]
+  },
+  {
+    "id": "forks-and-pins__absolute-pins__10",
+    "lesson": "forks-and-pins",
+    "section": "absolute-pins",
+    "caption": "Absolute pin — the Bishop on g5 pins the Knight on f6 to the King on e7. The Knight cannot legally move.",
+    "position": {
+      "e7": "k",
+      "d8": "q",
+      "a8": "r",
+      "h8": "r",
+      "f6": "n",
+      "g5": "B",
+      "d1": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "g5",
+      "f6",
+      "e7"
+    ]
+  },
+  {
+    "id": "forks-and-pins__absolute-pins__11",
+    "lesson": "forks-and-pins",
+    "section": "absolute-pins",
+    "caption": "Rook absolute pin — the Rook on e1 pins the Bishop on e5 to the King on e8",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "e5": "b",
+      "e1": "R",
+      "a1": "K"
+    },
+    "highlights": [
+      "e1",
+      "e5",
+      "e8"
+    ]
+  },
+  {
+    "id": "forks-and-pins__relative-pins__12",
+    "lesson": "forks-and-pins",
+    "section": "relative-pins",
+    "caption": "Relative pin — the Bishop on b5 pins the Knight on c6 to the Queen on d7",
+    "position": {
+      "e8": "k",
+      "a8": "r",
+      "h8": "r",
+      "d7": "q",
+      "f7": "p",
+      "g7": "p",
+      "c6": "n",
+      "b5": "B",
+      "d1": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "b5",
+      "c6",
+      "d7"
+    ]
+  },
+  {
+    "id": "forks-and-pins__relative-pins__13",
+    "lesson": "forks-and-pins",
+    "section": "relative-pins",
+    "caption": "Relative pin along a file — the Rook on d1 pins the Knight on d4 to the Queen on d7",
+    "position": {
+      "e8": "k",
+      "d7": "q",
+      "a7": "p",
+      "g7": "p",
+      "d4": "n",
+      "d1": "R",
+      "e1": "K"
+    },
+    "highlights": [
+      "d1",
+      "d4",
+      "d7"
+    ]
+  },
+  {
+    "id": "forks-and-pins__pin-and-win-patterns__14",
+    "lesson": "forks-and-pins",
+    "section": "pin-and-win-patterns",
+    "caption": "The Knight on f6 is pinned by the Bishop on g5. White plays Nd5 to add a second attacker.",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "f8": "b",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "f6": "n",
+      "d6": "p",
+      "g5": "B",
+      "d5": "N",
+      "e1": "K",
+      "d1": "Q"
+    },
+    "highlights": [
+      "g5",
+      "f6",
+      "d5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__pin-and-win-patterns__15",
+    "lesson": "forks-and-pins",
+    "section": "pin-and-win-patterns",
+    "caption": "The Knight on c6 is pinned to the Queen by Bb5. White plays a2-a4-a5 to attack the pinned Knight with a pawn.",
+    "position": {
+      "e8": "k",
+      "d8": "r",
+      "d7": "q",
+      "f7": "p",
+      "g7": "p",
+      "c6": "n",
+      "e6": "p",
+      "b5": "B",
+      "a5": "P",
+      "e1": "K",
+      "d1": "R"
+    },
+    "highlights": [
+      "b5",
+      "c6",
+      "d7",
+      "a5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__fork-or-pin__16",
+    "lesson": "forks-and-pins",
+    "section": "fork-or-pin",
+    "caption": "Can you spot both a fork AND a pin in this position? (White to move)",
+    "position": {
+      "a8": "r",
+      "e8": "k",
+      "h8": "r",
+      "d7": "q",
+      "f7": "p",
+      "g7": "b",
+      "c6": "n",
+      "e6": "p",
+      "d4": "P",
+      "c3": "N",
+      "f3": "N",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "a1": "R",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R"
+    },
+    "highlights": [
+      "c1",
+      "f3"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__17",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 1: White to move. Find the Knight fork.",
+    "position": {
+      "a8": "r",
+      "e8": "k",
+      "c7": "p",
+      "f7": "p",
+      "d4": "N",
+      "e1": "K"
+    },
+    "highlights": [
+      "d4"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__18",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 2: White to move. Find the pawn fork.",
+    "position": {
+      "e8": "k",
+      "b5": "n",
+      "d5": "b",
+      "c4": "P",
+      "e1": "K"
+    },
+    "highlights": [
+      "c4"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__19",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 3: White to move. Find the Queen fork.",
+    "position": {
+      "g8": "k",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a5": "r",
+      "d2": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "d2"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__20",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 4: White to move. Find the Knight fork.",
+    "position": {
+      "d8": "q",
+      "g8": "k",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "e5": "N",
+      "e1": "K"
+    },
+    "highlights": [
+      "e5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__21",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 5: Black to move. Find the Knight fork.",
+    "position": {
+      "e1": "K",
+      "a1": "R",
+      "d1": "Q",
+      "b2": "P",
+      "c2": "P",
+      "c3": "n",
+      "e8": "k"
+    },
+    "highlights": [
+      "c3"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__22",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 6: White to move. Find the pin.",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "f6": "n",
+      "a7": "p",
+      "g7": "p",
+      "h7": "p",
+      "e1": "K",
+      "d1": "Q"
+    },
+    "highlights": [
+      "d1"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__23",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 7: White to move. Find the absolute pin.",
+    "position": {
+      "e8": "k",
+      "a8": "r",
+      "h8": "r",
+      "d7": "b",
+      "c6": "p",
+      "a1": "R",
+      "e1": "R",
+      "g1": "K"
+    },
+    "highlights": [
+      "e1"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__24",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 8: White to move. Pin the Knight to win material.",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "f8": "r",
+      "c7": "p",
+      "d6": "n",
+      "f7": "p",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "c1"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__25",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 9: White to move. Create a pin along the e-file.",
+    "position": {
+      "e8": "k",
+      "d8": "q",
+      "f8": "b",
+      "a7": "p",
+      "d7": "n",
+      "f7": "p",
+      "e4": "n",
+      "a2": "P",
+      "f2": "P",
+      "d1": "Q",
+      "e1": "R",
+      "g1": "K"
+    },
+    "highlights": [
+      "e1",
+      "e4",
+      "e8"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__26",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 10: White to move. Find the Bishop pin.",
+    "position": {
+      "e8": "k",
+      "a8": "r",
+      "d7": "q",
+      "f7": "p",
+      "g7": "p",
+      "c6": "n",
+      "f3": "B",
+      "d1": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "f3"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__27",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 11: White to move. Sacrifice to set up a Knight fork.",
+    "position": {
+      "a8": "r",
+      "d8": "q",
+      "g8": "k",
+      "a7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "b5": "B",
+      "e5": "N",
+      "c3": "N",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a1": "R",
+      "d1": "Q",
+      "e1": "K"
+    },
+    "highlights": [
+      "e5",
+      "b5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__28",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 12: White to move. Find the pin that wins the Queen.",
+    "position": {
+      "g8": "k",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "b6": "q",
+      "e3": "B",
+      "e1": "K",
+      "a1": "R"
+    },
+    "highlights": [
+      "e3",
+      "a1"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__29",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 13: White to move. Create a double attack using a pin.",
+    "position": {
+      "e8": "k",
+      "f8": "b",
+      "d7": "q",
+      "f7": "p",
+      "g7": "p",
+      "c6": "n",
+      "e6": "p",
+      "d5": "P",
+      "c3": "N",
+      "a2": "P",
+      "b2": "P",
+      "g2": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R"
+    },
+    "highlights": [
+      "g2",
+      "c6"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__30",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 14: Black to move. Find the fork that wins the exchange.",
+    "position": {
+      "e1": "K",
+      "a1": "R",
+      "h1": "R",
+      "d2": "P",
+      "f2": "P",
+      "c3": "B",
+      "e4": "P",
+      "d5": "p",
+      "f6": "p",
+      "b7": "p",
+      "d7": "p",
+      "a8": "r",
+      "e8": "k",
+      "h8": "r"
+    },
+    "highlights": [
+      "d5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__31",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 15: White to move. Find the pin and win.",
+    "position": {
+      "a8": "r",
+      "g8": "k",
+      "a7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "c6": "q",
+      "e6": "n",
+      "c4": "B",
+      "c3": "N",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R"
+    },
+    "highlights": [
+      "c4"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__32",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 26: White to move. Use a pin to set up a deadly fork.",
+    "position": {
+      "a8": "r",
+      "d8": "r",
+      "g8": "k",
+      "a7": "p",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "c6": "n",
+      "e6": "q",
+      "d5": "N",
+      "g5": "B",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d1": "R",
+      "e1": "K"
+    },
+    "highlights": [
+      "d5",
+      "g5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__33",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 27: White to move. Find the combination using both a pin and a fork.",
+    "position": {
+      "a8": "r",
+      "e8": "k",
+      "h8": "r",
+      "a7": "p",
+      "b7": "p",
+      "d7": "n",
+      "f7": "p",
+      "g7": "p",
+      "c6": "p",
+      "e6": "q",
+      "e5": "P",
+      "d5": "B",
+      "c3": "N",
+      "a2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R"
+    },
+    "highlights": [
+      "d5",
+      "c3"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__34",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 41: White to move. A multi-move combination involving a sacrifice, pin, and fork.",
+    "position": {
+      "a8": "r",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k",
+      "a7": "p",
+      "b7": "p",
+      "c7": "n",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "e6": "p",
+      "d5": "N",
+      "g5": "B",
+      "c3": "P",
+      "e3": "P",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a1": "R",
+      "d1": "Q",
+      "f1": "R",
+      "g1": "K"
+    },
+    "highlights": [
+      "d5",
+      "g5"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__35",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 45: White to move. Find the pin that leads to a fork two moves later.",
+    "position": {
+      "a8": "r",
+      "g8": "k",
+      "a7": "p",
+      "f7": "p",
+      "g7": "b",
+      "h7": "p",
+      "b6": "p",
+      "e6": "q",
+      "d5": "P",
+      "f5": "n",
+      "e4": "N",
+      "c3": "B",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a1": "R",
+      "d1": "Q",
+      "f1": "R",
+      "g1": "K"
+    },
+    "highlights": [
+      "e4",
+      "c3"
+    ]
+  },
+  {
+    "id": "forks-and-pins__practice-puzzles__36",
+    "lesson": "forks-and-pins",
+    "section": "practice-puzzles",
+    "caption": "Puzzle 50: The ultimate challenge — White to move. Combine all your tactical knowledge.",
+    "position": {
+      "a8": "r",
+      "d8": "r",
+      "g8": "k",
+      "a7": "p",
+      "c7": "q",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "b6": "n",
+      "e6": "b",
+      "d5": "N",
+      "c4": "B",
+      "c3": "N",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a1": "R",
+      "d1": "Q",
+      "e1": "R",
+      "g1": "K"
+    },
+    "highlights": [
+      "d5",
+      "c4",
+      "c3"
+    ]
+  },
+  {
+    "id": "how-pieces-move__the-64-squares__0",
+    "lesson": "how-pieces-move",
+    "section": "the-64-squares",
+    "caption": "The empty chess board — 64 squares in an 8x8 grid",
+    "position": {},
+    "highlights": []
+  },
+  {
+    "id": "how-pieces-move__setting-up-the-board__1",
+    "lesson": "how-pieces-move",
+    "section": "setting-up-the-board",
+    "caption": "The starting position — all 32 pieces in their correct squares",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "how-pieces-move__pawns__2",
+    "lesson": "how-pieces-move",
+    "section": "pawns",
+    "caption": "Pawn movement: forward one square, or two squares from starting position. Captures diagonally.",
+    "position": {
+      "e2": "P",
+      "d5": "P",
+      "e3": "*",
+      "e4": "*",
+      "c6": "x",
+      "e6": "x",
+      "d6": "*"
+    },
+    "highlights": [
+      "e3",
+      "e4",
+      "d6",
+      "c6",
+      "e6"
+    ]
+  },
+  {
+    "id": "how-pieces-move__rooks__3",
+    "lesson": "how-pieces-move",
+    "section": "rooks",
+    "caption": "The Rook on d4 controls the entire d-file and the entire 4th rank",
+    "position": {
+      "d4": "R",
+      "d1": "*",
+      "d2": "*",
+      "d3": "*",
+      "d5": "*",
+      "d6": "*",
+      "d7": "*",
+      "d8": "*",
+      "a4": "*",
+      "b4": "*",
+      "c4": "*",
+      "e4": "*",
+      "f4": "*",
+      "g4": "*",
+      "h4": "*"
+    },
+    "highlights": [
+      "d1",
+      "d2",
+      "d3",
+      "d5",
+      "d6",
+      "d7",
+      "d8",
+      "a4",
+      "b4",
+      "c4",
+      "e4",
+      "f4",
+      "g4",
+      "h4"
+    ]
+  },
+  {
+    "id": "how-pieces-move__knights__4",
+    "lesson": "how-pieces-move",
+    "section": "knights",
+    "caption": "A Knight on d4 can move to 8 possible squares in an L-shape pattern",
+    "position": {
+      "d4": "N",
+      "c6": "*",
+      "e6": "*",
+      "b5": "*",
+      "f5": "*",
+      "b3": "*",
+      "f3": "*",
+      "c2": "*",
+      "e2": "*"
+    },
+    "highlights": [
+      "c6",
+      "e6",
+      "b5",
+      "f5",
+      "b3",
+      "f3",
+      "c2",
+      "e2"
+    ]
+  },
+  {
+    "id": "how-pieces-move__bishops__5",
+    "lesson": "how-pieces-move",
+    "section": "bishops",
+    "caption": "A Bishop on d4 controls both diagonals — it can reach any square on these lines",
+    "position": {
+      "d4": "B",
+      "a1": "*",
+      "b2": "*",
+      "c3": "*",
+      "e5": "*",
+      "f6": "*",
+      "g7": "*",
+      "h8": "*",
+      "a7": "*",
+      "b6": "*",
+      "c5": "*",
+      "e3": "*",
+      "f2": "*",
+      "g1": "*"
+    },
+    "highlights": [
+      "a1",
+      "b2",
+      "c3",
+      "e5",
+      "f6",
+      "g7",
+      "h8",
+      "a7",
+      "b6",
+      "c5",
+      "e3",
+      "f2",
+      "g1"
+    ]
+  },
+  {
+    "id": "how-pieces-move__queen-and-king__6",
+    "lesson": "how-pieces-move",
+    "section": "queen-and-king",
+    "caption": "The Queen on d4 can move in 8 directions — combining Rook and Bishop movement",
+    "position": {
+      "d4": "Q",
+      "d1": "*",
+      "d2": "*",
+      "d3": "*",
+      "d5": "*",
+      "d6": "*",
+      "d7": "*",
+      "d8": "*",
+      "a4": "*",
+      "b4": "*",
+      "c4": "*",
+      "e4": "*",
+      "f4": "*",
+      "g4": "*",
+      "h4": "*",
+      "a1": "*",
+      "b2": "*",
+      "c3": "*",
+      "e5": "*",
+      "f6": "*",
+      "g7": "*",
+      "h8": "*",
+      "a7": "*",
+      "b6": "*",
+      "c5": "*",
+      "e3": "*",
+      "f2": "*",
+      "g1": "*"
+    },
+    "highlights": [
+      "d1",
+      "d2",
+      "d3",
+      "d5",
+      "d6",
+      "d7",
+      "d8",
+      "a4",
+      "b4",
+      "c4",
+      "e4",
+      "f4",
+      "g4",
+      "h4",
+      "a1",
+      "b2",
+      "c3",
+      "e5",
+      "f6",
+      "g7",
+      "h8",
+      "a7",
+      "b6",
+      "c5",
+      "e3",
+      "f2",
+      "g1"
+    ]
+  },
+  {
+    "id": "how-pieces-move__queen-and-king__7",
+    "lesson": "how-pieces-move",
+    "section": "queen-and-king",
+    "caption": "The King on e4 can move one square in any direction (8 possible squares)",
+    "position": {
+      "e4": "K",
+      "d5": "*",
+      "e5": "*",
+      "f5": "*",
+      "d4": "*",
+      "f4": "*",
+      "d3": "*",
+      "e3": "*",
+      "f3": "*"
+    },
+    "highlights": [
+      "d5",
+      "e5",
+      "f5",
+      "d4",
+      "f4",
+      "d3",
+      "e3",
+      "f3"
+    ]
+  },
+  {
+    "id": "italian-game__why-play-the-italian__0",
+    "lesson": "italian-game",
+    "section": "why-play-the-italian",
+    "caption": "The Italian Game after 1.e4 e5 2.Nf3 Nc6 3.Bc4",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "e5": "p",
+      "c6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__move-order-and-setup__1",
+    "lesson": "italian-game",
+    "section": "move-order-and-setup",
+    "caption": "After 1.e4 e5 — both sides occupy the center",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "e4": "P",
+      "e5": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__giuoco-piano__2",
+    "lesson": "italian-game",
+    "section": "giuoco-piano",
+    "caption": "Giuoco Piano after 3...Bc5 — both Bishops eye the center",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "c5": "b",
+      "e5": "p",
+      "c6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__giuoco-piano__3",
+    "lesson": "italian-game",
+    "section": "giuoco-piano",
+    "caption": "After 4.c3 Nf6 5.d4 exd4 6.cxd4 — White has the ideal pawn center",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d4": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "c6": "n",
+      "f6": "n",
+      "c5": "b",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__giuoco-pianissimo__4",
+    "lesson": "italian-game",
+    "section": "giuoco-pianissimo",
+    "caption": "Giuoco Pianissimo after 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d3": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "c5": "b",
+      "e5": "p",
+      "c6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__giuoco-pianissimo__5",
+    "lesson": "italian-game",
+    "section": "giuoco-pianissimo",
+    "caption": "A typical Pianissimo setup after 4.d3 Nf6 5.0-0 d6 6.c3 0-0",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "f1": "R",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g1": "K",
+      "g2": "P",
+      "h2": "P",
+      "c3": "P",
+      "d3": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "c5": "b",
+      "d6": "p",
+      "e5": "p",
+      "c6": "n",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__evans-gambit__6",
+    "lesson": "italian-game",
+    "section": "evans-gambit",
+    "caption": "The Evans Gambit — 4.b4!? offering a pawn sacrifice",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "b4": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "c5": "b",
+      "e5": "p",
+      "c6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__evans-gambit__7",
+    "lesson": "italian-game",
+    "section": "evans-gambit",
+    "caption": "After 4...Bxb4 5.c3 Ba5 6.d4 — White has a powerful center and open lines",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c3": "P",
+      "d4": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "a5": "b",
+      "e5": "p",
+      "c6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__two-knights-defense__8",
+    "lesson": "italian-game",
+    "section": "two-knights-defense",
+    "caption": "Two Knights Defense after 3...Nf6 — Black counterattacks e4",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "e5": "p",
+      "c6": "n",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__two-knights-defense__9",
+    "lesson": "italian-game",
+    "section": "two-knights-defense",
+    "caption": "After 4.Ng5 d5 5.exd5 Na5 — the main line of the Two Knights",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "e4": "P",
+      "g5": "N",
+      "c4": "B",
+      "d5": "P",
+      "a5": "n",
+      "e5": "p",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__common-traps__10",
+    "lesson": "italian-game",
+    "section": "common-traps",
+    "caption": "Legal's Mate — the final position after 8.Nd5# (checkmate)",
+    "position": {
+      "a1": "R",
+      "c1": "B",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "c3": "N",
+      "e5": "N",
+      "h3": "P",
+      "f7": "B",
+      "d5": "N",
+      "d1": "b",
+      "e7": "k",
+      "c6": "n",
+      "d6": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "d8": "q",
+      "f8": "b",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__model-games__11",
+    "lesson": "italian-game",
+    "section": "model-games",
+    "caption": "A typical ideal Italian Game setup for White — pieces are fully developed and coordinated",
+    "position": {
+      "a1": "R",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "R",
+      "a2": "P",
+      "b3": "B",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "g1": "K",
+      "c3": "P",
+      "d3": "P",
+      "e4": "P",
+      "f3": "N",
+      "g3": "N",
+      "a4": "P",
+      "c5": "b",
+      "d6": "p",
+      "e5": "p",
+      "c6": "n",
+      "f6": "n",
+      "a6": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__practice-positions__12",
+    "lesson": "italian-game",
+    "section": "practice-positions",
+    "caption": "White to play — should White push d4 here?",
+    "position": {
+      "a1": "R",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c3": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "c5": "b",
+      "e5": "p",
+      "c6": "n",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__practice-positions__13",
+    "lesson": "italian-game",
+    "section": "practice-positions",
+    "caption": "White to play in a Pianissimo structure — what is the best plan?",
+    "position": {
+      "a1": "R",
+      "c1": "B",
+      "d1": "Q",
+      "f1": "R",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "g1": "K",
+      "c3": "P",
+      "d3": "P",
+      "e4": "P",
+      "f3": "N",
+      "c4": "B",
+      "d2": "N",
+      "c5": "b",
+      "d6": "p",
+      "e5": "p",
+      "c6": "n",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "italian-game__practice-positions__14",
+    "lesson": "italian-game",
+    "section": "practice-positions",
+    "caption": "Black to play — White just moved Ng5. What should Black do?",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "c2": "P",
+      "d2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "e4": "P",
+      "g5": "N",
+      "c4": "B",
+      "e5": "p",
+      "c6": "n",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "d7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "king-and-pawn-endings__the-rule-of-the-square__0",
+    "lesson": "king-and-pawn-endings",
+    "section": "the-rule-of-the-square",
+    "caption": "White pawn on a5. The \"square\" stretches from a5 to a8 to e8 to e5. Black King on g7 is outside the square — the pawn promotes!",
+    "position": {
+      "a5": "P",
+      "g7": "k",
+      "a6": "*",
+      "a7": "*",
+      "a8": "*"
+    },
+    "highlights": [
+      "a5",
+      "a6",
+      "a7",
+      "a8",
+      "b8",
+      "c8",
+      "d8",
+      "e8",
+      "b5",
+      "c5",
+      "d5",
+      "e5",
+      "b6",
+      "c6",
+      "d6",
+      "e6",
+      "b7",
+      "c7",
+      "d7",
+      "e7"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__the-rule-of-the-square__1",
+    "lesson": "king-and-pawn-endings",
+    "section": "the-rule-of-the-square",
+    "caption": "Now the Black King is on d7 — inside the square. If it is Black's turn, the King catches the pawn.",
+    "position": {
+      "a5": "P",
+      "d7": "k",
+      "a6": "*",
+      "a7": "*",
+      "a8": "*"
+    },
+    "highlights": [
+      "a5",
+      "b5",
+      "c5",
+      "d5",
+      "e5",
+      "b6",
+      "c6",
+      "d6",
+      "e6",
+      "b7",
+      "c7",
+      "d7",
+      "e7",
+      "b8",
+      "c8",
+      "d8",
+      "e8",
+      "a6",
+      "a7",
+      "a8"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__opposition__2",
+    "lesson": "king-and-pawn-endings",
+    "section": "opposition",
+    "caption": "Direct opposition on the e-file. If it is Black to move, White has the opposition — Black must step aside.",
+    "position": {
+      "e4": "K",
+      "e6": "k"
+    },
+    "highlights": [
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__opposition__3",
+    "lesson": "king-and-pawn-endings",
+    "section": "opposition",
+    "caption": "Opposition in action: White King on e5 and pawn on e4 vs Black King on e7. White to move loses the opposition; Black to move lets White break through.",
+    "position": {
+      "e5": "K",
+      "e4": "P",
+      "e7": "k"
+    },
+    "highlights": [
+      "e5",
+      "e6",
+      "e7"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__key-squares__4",
+    "lesson": "king-and-pawn-endings",
+    "section": "key-squares",
+    "caption": "Pawn on e4: the key squares are d6, e6, and f6 (two ranks ahead). If the White King reaches any of these squares, the pawn promotes.",
+    "position": {
+      "e4": "P",
+      "d6": "*",
+      "e6": "*",
+      "f6": "*"
+    },
+    "highlights": [
+      "d6",
+      "e6",
+      "f6"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__key-squares__5",
+    "lesson": "king-and-pawn-endings",
+    "section": "key-squares",
+    "caption": "Pawn on e5: now the key squares shift to d6, e6, f6, d7, e7, and f7.",
+    "position": {
+      "e5": "P",
+      "d6": "*",
+      "e6": "*",
+      "f6": "*",
+      "d7": "*",
+      "e7": "*",
+      "f7": "*"
+    },
+    "highlights": [
+      "d6",
+      "e6",
+      "f6",
+      "d7",
+      "e7",
+      "f7"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__single-pawn-endings__6",
+    "lesson": "king-and-pawn-endings",
+    "section": "single-pawn-endings",
+    "caption": "A winning position: White King on d6 ahead of the pawn. The King controls the key squares, and the pawn will promote.",
+    "position": {
+      "d6": "K",
+      "d4": "P",
+      "e8": "k"
+    },
+    "highlights": [
+      "c7",
+      "d7",
+      "e7"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__single-pawn-endings__7",
+    "lesson": "king-and-pawn-endings",
+    "section": "single-pawn-endings",
+    "caption": "A drawn position: White King behind the pawn on e1, pawn on e4, Black King on e6. Black maintains the opposition and draws.",
+    "position": {
+      "e2": "K",
+      "e4": "P",
+      "e6": "k"
+    },
+    "highlights": [
+      "e2",
+      "e4",
+      "e6"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__passed-pawns__8",
+    "lesson": "king-and-pawn-endings",
+    "section": "passed-pawns",
+    "caption": "White's d5 pawn is a passed pawn — no Black pawns on the c, d, or e files can stop it. The e5 pawn is NOT passed because Black has a pawn on f7.",
+    "position": {
+      "d5": "P",
+      "e5": "P",
+      "a2": "P",
+      "a7": "p",
+      "f7": "p",
+      "h7": "p",
+      "e1": "K",
+      "e8": "k"
+    },
+    "highlights": [
+      "d5",
+      "d6",
+      "d7",
+      "d8"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__passed-pawns__9",
+    "lesson": "king-and-pawn-endings",
+    "section": "passed-pawns",
+    "caption": "Connected passed pawns on c5 and d5 supported by the White King. These two pawns together are very difficult to stop.",
+    "position": {
+      "c5": "P",
+      "d5": "P",
+      "d4": "K",
+      "b7": "k"
+    },
+    "highlights": [
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "d5",
+      "d6",
+      "d7",
+      "d8"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__pawn-breakthroughs__10",
+    "lesson": "king-and-pawn-endings",
+    "section": "pawn-breakthroughs",
+    "caption": "The classic breakthrough position. White has pawns on a5, b5, c5 vs Black pawns on a7, b7, c7. White to move wins!",
+    "position": {
+      "a5": "P",
+      "b5": "P",
+      "c5": "P",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "h1": "K",
+      "h8": "k"
+    },
+    "highlights": [
+      "a5",
+      "b5",
+      "c5"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__outside-passed-pawn__11",
+    "lesson": "king-and-pawn-endings",
+    "section": "outside-passed-pawn",
+    "caption": "White's a-pawn is an outside passed pawn. Black must chase it with the King, and White's King then feasts on Black's kingside pawns.",
+    "position": {
+      "a5": "P",
+      "f4": "P",
+      "g3": "P",
+      "h4": "P",
+      "f5": "p",
+      "g4": "p",
+      "h5": "p",
+      "c3": "K",
+      "f7": "k"
+    },
+    "highlights": [
+      "a5",
+      "a6",
+      "a7",
+      "a8"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__triangulation__12",
+    "lesson": "king-and-pawn-endings",
+    "section": "triangulation",
+    "caption": "White needs to triangulate. From d4, White plays Kd3-e3-d4, returning to d4 but with Black to move.",
+    "position": {
+      "d4": "K",
+      "d5": "P",
+      "d6": "k",
+      "c6": "p"
+    },
+    "highlights": [
+      "d3",
+      "e3",
+      "d4"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__zugzwang__13",
+    "lesson": "king-and-pawn-endings",
+    "section": "zugzwang",
+    "caption": "Classic zugzwang: Black to move must step aside, letting the White King advance. If White were to move, it would be White in zugzwang.",
+    "position": {
+      "d5": "K",
+      "d4": "P",
+      "d6": "k"
+    },
+    "highlights": [
+      "c7",
+      "e7",
+      "c6",
+      "e6"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__zugzwang__14",
+    "lesson": "king-and-pawn-endings",
+    "section": "zugzwang",
+    "caption": "Mutual zugzwang: whoever has to move here is at a disadvantage. Both sides want to pass!",
+    "position": {
+      "e5": "K",
+      "e4": "P",
+      "e7": "k"
+    },
+    "highlights": [
+      "e5",
+      "e6",
+      "e7"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__practical-examples__15",
+    "lesson": "king-and-pawn-endings",
+    "section": "practical-examples",
+    "caption": "Both sides have a passed pawn. Use the Rule of the Square to determine who wins the race!",
+    "position": {
+      "a5": "P",
+      "h4": "p",
+      "c3": "K",
+      "f6": "k"
+    },
+    "highlights": [
+      "a5",
+      "a6",
+      "a7",
+      "a8",
+      "h4",
+      "h3",
+      "h2",
+      "h1"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__practical-examples__16",
+    "lesson": "king-and-pawn-endings",
+    "section": "practical-examples",
+    "caption": "Black is down a pawn but can draw by taking the opposition. Black to move: ...Ke7! directly facing the White King.",
+    "position": {
+      "e5": "K",
+      "e4": "P",
+      "e8": "k"
+    },
+    "highlights": [
+      "e5",
+      "e6",
+      "e7"
+    ]
+  },
+  {
+    "id": "king-and-pawn-endings__practical-examples__17",
+    "lesson": "king-and-pawn-endings",
+    "section": "practical-examples",
+    "caption": "White wins by advancing the a-pawn to lure the Black King away, then capturing on the kingside.",
+    "position": {
+      "a4": "P",
+      "f2": "P",
+      "g2": "P",
+      "f7": "p",
+      "g7": "p",
+      "d3": "K",
+      "e7": "k"
+    },
+    "highlights": [
+      "a4",
+      "a5",
+      "a6",
+      "a7",
+      "a8"
+    ]
+  },
+  {
+    "id": "queens-gambit__the-gambit-idea__0",
+    "lesson": "queens-gambit",
+    "section": "the-gambit-idea",
+    "caption": "The Queen's Gambit position after 1.d4 d5 2.c4 — White offers the c-pawn",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c4": "P",
+      "d4": "P",
+      "d5": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "queens-gambit__why-2-c4__1",
+    "lesson": "queens-gambit",
+    "section": "why-2-c4",
+    "caption": "White's c4 pawn attacks the d5 square, creating central tension",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c4": "P",
+      "d4": "P",
+      "d5": "x",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": [
+      "c4",
+      "d5"
+    ]
+  },
+  {
+    "id": "queens-gambit__pawn-structure-basics__2",
+    "lesson": "queens-gambit",
+    "section": "pawn-structure-basics",
+    "caption": "White's ideal classical center with pawns on d4 and e4",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d4": "P",
+      "e4": "P",
+      "d5": "*",
+      "e5": "*",
+      "c5": "*",
+      "f5": "*",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": [
+      "d5",
+      "e5",
+      "c5",
+      "f5"
+    ]
+  },
+  {
+    "id": "queens-gambit__pawn-structure-basics__3",
+    "lesson": "queens-gambit",
+    "section": "pawn-structure-basics",
+    "caption": "Typical QGD pawn structure — Black's e6 pawn is solid but locks in the light-squared bishop",
+    "position": {
+      "a2": "P",
+      "b2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c4": "P",
+      "d4": "P",
+      "d5": "p",
+      "e6": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "c8": "b"
+    },
+    "highlights": [
+      "c8",
+      "e6"
+    ]
+  },
+  {
+    "id": "queens-gambit__orthodox-defense__4",
+    "lesson": "queens-gambit",
+    "section": "orthodox-defense",
+    "caption": "The Orthodox Defense after 6...Nbd7 — a rock-solid setup for Black",
+    "position": {
+      "a1": "R",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e3": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c3": "N",
+      "c4": "P",
+      "d4": "P",
+      "f3": "N",
+      "g5": "B",
+      "d5": "p",
+      "e6": "p",
+      "f6": "n",
+      "e7": "b",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "c8": "b",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k",
+      "d7": "n"
+    },
+    "highlights": []
+  },
+  {
+    "id": "queens-gambit__ragozin-defense__5",
+    "lesson": "queens-gambit",
+    "section": "ragozin-defense",
+    "caption": "The Ragozin Defense after 4...Bb4 — Black pins the knight and fights for the center",
+    "position": {
+      "a1": "R",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c3": "N",
+      "c4": "P",
+      "d4": "P",
+      "f3": "N",
+      "b4": "b",
+      "d5": "p",
+      "e6": "p",
+      "f6": "n",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "queens-gambit__tartakower-variation__6",
+    "lesson": "queens-gambit",
+    "section": "tartakower-variation",
+    "caption": "The Tartakower Variation after 7...b6 — Black prepares Bb7 to activate the problem piece",
+    "position": {
+      "a1": "R",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e3": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c3": "N",
+      "c4": "P",
+      "d4": "P",
+      "f3": "N",
+      "h4": "B",
+      "b6": "p",
+      "d5": "p",
+      "e6": "p",
+      "e7": "b",
+      "f6": "n",
+      "h6": "p",
+      "a7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k"
+    },
+    "highlights": []
+  },
+  {
+    "id": "queens-gambit__taking-the-pawn__7",
+    "lesson": "queens-gambit",
+    "section": "taking-the-pawn",
+    "caption": "Queen's Gambit Accepted after 2...dxc4 — Black takes the gambit pawn",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d4": "P",
+      "c4": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "queens-gambit__classical-lines__8",
+    "lesson": "queens-gambit",
+    "section": "classical-lines",
+    "caption": "Classical QGA after 6...a6 — Black has returned the pawn and prepares queenside expansion",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "f1": "R",
+      "g1": "K",
+      "a2": "P",
+      "b2": "P",
+      "e3": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c4": "B",
+      "d4": "P",
+      "f3": "N",
+      "a6": "p",
+      "c5": "p",
+      "e6": "p",
+      "f6": "n",
+      "b7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "h8": "r"
+    },
+    "highlights": []
+  },
+  {
+    "id": "queens-gambit__modern-approaches__9",
+    "lesson": "queens-gambit",
+    "section": "modern-approaches",
+    "caption": "Modern approach with 3.e4 — White boldly claims the center",
+    "position": {
+      "a1": "R",
+      "b1": "N",
+      "c1": "B",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "g1": "N",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "d4": "P",
+      "e4": "P",
+      "c4": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "e7": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "e8": "k",
+      "f8": "b",
+      "g8": "n",
+      "h8": "r"
+    },
+    "highlights": [
+      "d4",
+      "e4"
+    ]
+  },
+  {
+    "id": "queens-gambit__key-middlegame-plans__10",
+    "lesson": "queens-gambit",
+    "section": "key-middlegame-plans",
+    "caption": "White executing a minority attack — the b-pawn advances to create queenside weaknesses",
+    "position": {
+      "a1": "R",
+      "c1": "R",
+      "g1": "K",
+      "a2": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "b4": "P",
+      "d4": "P",
+      "e3": "P",
+      "f3": "N",
+      "d5": "p",
+      "f6": "n",
+      "e7": "b",
+      "a7": "p",
+      "b7": "p",
+      "c6": "p",
+      "f7": "p",
+      "g7": "p",
+      "h7": "p",
+      "b5": "*",
+      "a8": "r",
+      "c8": "r",
+      "g8": "k"
+    },
+    "highlights": [
+      "b4",
+      "b5"
+    ]
+  },
+  {
+    "id": "queens-gambit__test-your-knowledge__11",
+    "lesson": "queens-gambit",
+    "section": "test-your-knowledge",
+    "caption": "What variation is this? What should Black play next?",
+    "position": {
+      "a1": "R",
+      "d1": "Q",
+      "e1": "K",
+      "f1": "B",
+      "h1": "R",
+      "a2": "P",
+      "b2": "P",
+      "e3": "P",
+      "f2": "P",
+      "g2": "P",
+      "h2": "P",
+      "c3": "N",
+      "c4": "P",
+      "d4": "P",
+      "f3": "N",
+      "h4": "B",
+      "d5": "p",
+      "e6": "p",
+      "e7": "b",
+      "f6": "n",
+      "h6": "p",
+      "a7": "p",
+      "b7": "p",
+      "c7": "p",
+      "f7": "p",
+      "g7": "p",
+      "a8": "r",
+      "b8": "n",
+      "c8": "b",
+      "d8": "q",
+      "f8": "r",
+      "g8": "k"
+    },
+    "highlights": []
+  }
+]

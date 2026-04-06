@@ -1,16 +1,13 @@
 import { useParams, Link } from 'react-router-dom'
-import { FileText, Download, ArrowLeft, Eye } from 'lucide-react'
+import { FileText, Download, ArrowLeft } from 'lucide-react'
 import products from '../data/products.json'
-import { useCart } from '../hooks/useCart'
 import { Badge } from '../components/ui/Badge'
 import { Button } from '../components/ui/Button'
 import { StarRating } from '../components/ui/StarRating'
-import { PriceTag } from '../components/ui/PriceTag'
 import { ProductCard } from '../components/products/ProductCard'
 
 export function ProductDetailPage() {
   const { slug } = useParams()
-  const { addItem, items } = useCart()
   const product = products.find((p) => p.slug === slug)
 
   if (!product) {
@@ -20,19 +17,6 @@ export function ProductDetailPage() {
         <Link to="/products" className="text-emerald-600 hover:text-emerald-700">Back to Products</Link>
       </div>
     )
-  }
-
-  const inCart = items.some((item) => item.id === product.id && item.itemType === 'product')
-
-  const handleAddToCart = () => {
-    addItem({
-      id: product.id,
-      title: product.title,
-      price: product.price,
-      itemType: 'product',
-      slug: product.slug,
-      paymentLink: product.paymentLink,
-    })
   }
 
   const related = products
@@ -68,25 +52,18 @@ export function ProductDetailPage() {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-            <div className="mb-4">
-              <PriceTag price={product.price} originalPrice={product.originalPrice} />
-            </div>
+            <p className="text-2xl font-bold text-emerald-600 mb-4">Free</p>
 
-            {product.originalPrice && (
-              <p className="text-sm text-emerald-600 font-medium mb-4">
-                Save {Math.round((1 - product.price / product.originalPrice) * 100)}% off
-              </p>
+            {product.pdfFile && (
+              <a
+                href={`${import.meta.env.BASE_URL}products/${product.pdfFile}`}
+                download
+                className="flex items-center justify-center gap-2 w-full px-4 py-3 mb-3 text-base font-semibold text-white bg-emerald-600 rounded-lg hover:bg-emerald-700 transition-colors no-underline"
+              >
+                <Download size={18} />
+                Download PDF
+              </a>
             )}
-
-            <Button
-              onClick={handleAddToCart}
-              disabled={inCart}
-              size="lg"
-              className="w-full mb-3"
-              variant={inCart ? 'ghost' : 'primary'}
-            >
-              {inCart ? 'Added to Cart' : 'Add to Cart'}
-            </Button>
 
             {product.pdfFile && (
               <a
@@ -95,8 +72,7 @@ export function ProductDetailPage() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full px-4 py-2.5 mb-4 text-sm font-medium text-emerald-700 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors no-underline"
               >
-                <Eye size={16} />
-                Preview PDF
+                View in Browser
               </a>
             )}
 

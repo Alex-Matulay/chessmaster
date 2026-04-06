@@ -94,48 +94,50 @@ function tip(doc, text) {
   doc.moveDown(0.4)
 }
 
-function chessBoard(doc, title, position = {}) {
-  const startX = 160
-  const startY = doc.y + 10
-  const sq = 34
+import { execSync } from 'child_process'
+import crypto from 'crypto'
 
-  if (startY + sq * 8 + 40 > 780) {
+const boardCache = path.resolve('scripts/pdf-boards')
+fs.mkdirSync(boardCache, { recursive: true })
+
+function positionToHash(position) {
+  const sorted = Object.entries(position).sort().map(([k, v]) => `${k}:${v}`).join(',')
+  return crypto.createHash('md5').update(sorted).digest('hex').slice(0, 12)
+}
+
+function generateBoardPng(position) {
+  const hash = positionToHash(position)
+  const pngPath = path.join(boardCache, `${hash}.png`)
+  if (fs.existsSync(pngPath)) return pngPath
+
+  // Write position to temp JSON file (avoids shell escaping issues on Windows)
+  const tmpJson = path.join(boardCache, `_tmp_${hash}.json`)
+  fs.writeFileSync(tmpJson, JSON.stringify(position))
+  const renderScript = path.resolve('scripts/render-board.py')
+  execSync(`python "${renderScript}" "${tmpJson}" "${pngPath}"`)
+  fs.unlinkSync(tmpJson)
+  return pngPath
+}
+
+function chessBoard(doc, title, position = {}) {
+  const imgSize = 280
+  const startX = (595 - imgSize) / 2 // center on A4
+
+  if (doc.y + imgSize + 40 > 780) {
     doc.addPage()
     return chessBoard(doc, title, position)
   }
 
   // Title
-  doc.fontSize(10).fillColor(C.light).font('Helvetica').text(title, 60, startY - 5, { width: 475, align: 'center' })
+  doc.fontSize(10).fillColor(C.light).font('Helvetica').text(title, 60, doc.y, { width: 475, align: 'center' })
+  doc.moveDown(0.3)
 
-  const boardY = startY + 15
-  const pieces = { K: '♔', Q: '♕', R: '♖', B: '♗', N: '♘', P: '♙', k: '♚', q: '♛', r: '♜', b: '♝', n: '♞', p: '♟' }
-  const files = 'abcdefgh'
-
-  // Border
-  doc.rect(startX - 2, boardY - 2, sq * 8 + 4, sq * 8 + 4).lineWidth(2).stroke(C.dark)
-
-  for (let rank = 8; rank >= 1; rank--) {
-    for (let f = 0; f < 8; f++) {
-      const x = startX + f * sq
-      const y = boardY + (8 - rank) * sq
-      const isLight = (f + rank) % 2 === 1
-      doc.rect(x, y, sq, sq).fill(isLight ? '#f5e6c8' : '#b58863')
-
-      const square = files[f] + rank
-      const piece = position[square]
-      if (piece && pieces[piece]) {
-        doc.fontSize(22).fillColor(piece === piece.toUpperCase() ? '#ffffff' : '#1a1a1a')
-        doc.text(pieces[piece], x, y + 6, { width: sq, align: 'center' })
-      }
-    }
+  const pngPath = generateBoardPng(position)
+  if (fs.existsSync(pngPath)) {
+    doc.image(pngPath, startX, doc.y, { width: imgSize })
+    doc.y += imgSize + 10
   }
 
-  // File labels
-  for (let f = 0; f < 8; f++) {
-    doc.fontSize(8).fillColor(C.light).text(files[f], startX + f * sq, boardY + sq * 8 + 4, { width: sq, align: 'center' })
-  }
-
-  doc.y = boardY + sq * 8 + 20
   doc.moveDown(0.5)
   doc.fontSize(11).fillColor(C.text)
 }
