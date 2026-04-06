@@ -30,13 +30,13 @@ export const lessonContent = {
         },
         {
           type: 'list',
-          title: 'Common tactical themes covered in this course',
+          title: 'Tactical themes covered in this course',
           items: [
             'Skewers — attacking a valuable piece to win one behind it',
             'Deflection and Decoy — forcing defenders out of position',
             'Back Rank Tactics — exploiting a trapped King',
             'Removing the Guard — eliminating a key defender',
-            'Multi-move combinations — chaining tactics together'
+            'Multi-move Combinations — chaining multiple tactics together'
           ]
         }
       ]
@@ -55,7 +55,7 @@ export const lessonContent = {
           title: 'Three signals that a tactic exists',
           items: [
             '**Undefended pieces** — any piece without a defender is a potential target for a fork, skewer, or double attack',
-            '**Overloaded defenders** — a piece that is defending two things at once can often be exploited because it cannot handle both duties',
+            '**Overloaded defenders** — a piece defending two things at once can often be exploited because it cannot handle both duties',
             '**Pieces on the same line** — two pieces on the same rank, file, or diagonal are vulnerable to pins, skewers, and discovered attacks'
           ]
         },
@@ -66,28 +66,28 @@ export const lessonContent = {
         },
         {
           type: 'text',
-          value: 'The **CCT method** (Checks, Captures, Threats) is the most effective way to find tactics. Before deciding on a move, mentally scan: "Can I give check? Can I capture something? Can I create a threat that my opponent must answer?" This disciplined approach catches tactics that intuition alone might miss.'
+          value: 'The **CCT method** (Checks, Captures, Threats) is the most effective way to find tactics. Before deciding on a move, mentally scan: "Can I give check? Can I capture something? Can I create a threat my opponent must answer?" This disciplined approach catches tactics that intuition alone would miss.'
         },
         {
           type: 'board',
-          caption: 'A position rich with tactical possibilities — Black\'s pieces are uncoordinated and several are undefended',
+          caption: 'Apply CCT here — White\'s Knight on e3 can capture the undefended Queen on d5!',
           position: {
             a8: 'r', e8: 'k', h8: 'r',
-            a7: 'p', f7: 'p', g7: 'p',
-            b6: 'n', d6: 'q',
-            d4: 'B', e4: 'N',
+            a7: 'p', d7: 'b', f7: 'p', g7: 'p',
+            d5: 'q', f5: 'p',
+            e3: 'N', c3: 'B',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            a1: 'R', e1: 'K', h1: 'R',
+            a1: 'R', e1: 'R', g1: 'K',
           },
-          highlights: ['e4', 'd4', 'd6', 'b6', 'e8']
+          highlights: ['e3', 'd5']
         },
         {
           type: 'text',
-          value: 'In this position, White can play **Nc5!** — the Knight moves to c5, forking the Queen on d6 and attacking toward the weak e6 and b7 squares. The Bishop on d4 also x-rays the a7-g1 diagonal. Using CCT: the Knight move creates a direct threat to the Queen (a "threat" in CCT terms), forcing Black to react.'
+          value: 'Applying CCT: **Captures** — can White capture anything valuable? A Knight on e3 attacks c2, c4, d1, d5, f1, f5, g2, and g4. The Queen sits on d5 — and **Nxd5!** captures her outright! The Queen is undefended, and the CCT method finds this instantly. Always scan for captures before looking at anything else.'
         },
         {
           type: 'tip',
-          value: 'Train yourself to scan for CCT on every single move — yours AND your opponent\'s. With practice, pattern recognition becomes automatic and you will spot tactics in seconds that used to take minutes.'
+          value: 'Train yourself to scan for CCT on every single move — yours AND your opponent\'s. With practice, pattern recognition becomes automatic and you will spot tactics in seconds that used to take you minutes.'
         }
       ]
     },
@@ -98,64 +98,49 @@ export const lessonContent = {
       content: [
         {
           type: 'text',
-          value: 'A **skewer** is the reverse of a pin: you attack a valuable piece along a line, and when it moves out of the way, you capture a less valuable (or equally valuable) piece behind it. Skewers typically involve Rooks, Bishops, or Queens attacking along ranks, files, or diagonals.'
+          value: 'A **skewer** is the reverse of a pin: you attack a valuable piece along a line, and when it moves, you capture a less valuable piece behind it. The key difference from a pin is that in a skewer, the **more** valuable piece is closer to the attacker and is forced to move.'
         },
         {
           type: 'definition',
           term: 'Skewer',
-          value: 'An attack on a valuable piece that forces it to move, exposing a piece behind it on the same line to capture.'
+          value: 'An attack on a valuable piece that forces it to move, exposing a piece behind it on the same line to capture. The more valuable piece is in front; the less valuable piece is behind.'
         },
         {
           type: 'board',
-          caption: 'Rook skewer — the Rook on a1 attacks the King on a8, and after the King moves, White captures the Queen on a4',
+          caption: 'Rook skewer on the h-file — Rh1+ checks the King on h4. After the King moves, White plays Rxh8, winning the Rook.',
           position: {
-            a8: 'k',
-            b7: 'p',
-            a4: 'q',
-            g2: 'P', h2: 'P',
-            a1: 'R', g1: 'K',
+            h8: 'r',
+            f7: 'p', g7: 'p',
+            h4: 'k',
+            a2: 'P', f2: 'P', g2: 'P',
+            h1: 'R', g1: 'K',
           },
-          highlights: ['a1', 'a8', 'a4']
+          highlights: ['h1', 'h4', 'h8']
         },
         {
           type: 'text',
-          value: 'The Rook on a1 delivers check to the King on a8 along the a-file. The King **must** move (for example to b8), and then White plays Rxa4, capturing the Black Queen. This is the most common type of skewer — a Rook checking the King with a piece sitting behind on the same file.'
+          value: 'The White Rook on h1 checks the Black King on h4 along the h-file. The path h1-h2-h3-h4 is clear, so this is a valid check. The King **must** move — for example to g3 or g5. Once the King steps off the h-file, the Rook on h8 is exposed, and White plays **Rxh8**, winning the Rook. This is a textbook Rook skewer: the valuable piece (King) is in front and forced to move, exposing the piece behind it.'
         },
         {
           type: 'board',
-          caption: 'Bishop skewer — the Bishop on b5 attacks the Queen on d7, and after she moves, captures the Rook on g2 (on the same diagonal)',
+          caption: 'Bishop skewer — White plays Bb3+! checking the King on d5. After the King moves, Bxg8 wins the Rook.',
           position: {
-            a8: 'r', e8: 'k',
-            d7: 'q', f7: 'p', g7: 'p', h7: 'p',
-            b5: 'B',
-            f2: 'P', h2: 'P',
-            a1: 'R', e1: 'K', f1: 'R',
+            g8: 'r',
+            h7: 'p',
+            d5: 'k', e5: 'p',
+            a2: 'B',
+            f2: 'P', g2: 'P', h2: 'P',
+            e1: 'K',
           },
-          highlights: ['b5', 'd7']
+          highlights: ['a2', 'd5', 'g8']
         },
         {
           type: 'text',
-          value: 'The Bishop on b5 attacks the Queen on d7. The Queen is more valuable than the Bishop, so Black must move her. But the b5-d7 diagonal doesn\'t continue usefully here — instead, notice that the Bishop on b5 also pins the Queen to the King on e8! This is actually a **pin** that functions like a skewer: the Queen is on the line between the Bishop and the King, and she cannot move away without exposing the King to check.'
-        },
-        {
-          type: 'board',
-          caption: 'Rook skewer along a rank — Rook on h2 attacks the King on e2, winning the Rook on a2 after the King moves',
-          position: {
-            e8: 'k',
-            a7: 'p', b7: 'p',
-            a2: 'r', e2: 'K',
-            h2: 'R',
-            a1: 'R',
-          },
-          highlights: ['h2', 'e2', 'a2']
-        },
-        {
-          type: 'text',
-          value: 'Here the White Rook on h2 checks the King on e2 along the second rank. After the King moves (say to d1 or f1), White plays Rxa2, winning the Black Rook. Skewers along ranks are very common in endgames when kings and rooks are active.'
+          value: 'White plays **Bb3+!** — the Bishop moves from a2 to b3, delivering check to the King on d5 along the diagonal (b3-c4-d5). The King must move off this diagonal. Once it does, the diagonal continues through e6, f7, and g8 — where the Black Rook sits undefended. White plays **Bxg8**, winning the Rook. The squares e6 and f7 between d5 and g8 are both empty, so the Bishop\'s path is clear once the King steps aside.'
         },
         {
           type: 'tip',
-          value: 'Look for skewer opportunities whenever your opponent\'s King and Queen (or King and Rook) are on the same rank, file, or diagonal. Even if they are far apart, a long-range piece can exploit the alignment.'
+          value: 'Skewers are especially common in endgames when the board is open and long-range pieces can exploit alignments. Always check if your opponent\'s King and another piece are on the same rank, file, or diagonal — with the King closer to your piece. That alignment is a potential skewer.'
         }
       ]
     },
@@ -166,7 +151,7 @@ export const lessonContent = {
       content: [
         {
           type: 'text',
-          value: '**Deflection** and **Decoy** are closely related tactics that manipulate enemy pieces by forcing them to leave key squares or luring them to bad squares.'
+          value: '**Deflection** and **Decoy** are closely related tactics that manipulate enemy pieces. Deflection forces a defender away from its duty; a decoy lures a piece to a square where it can be exploited.'
         },
         {
           type: 'definition',
@@ -184,19 +169,19 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Deflection — White plays Qxf6! forcing the Queen away from defending d8, then Rd8 is checkmate',
+          caption: 'Deflection — Qxf8+! removes the back-rank defender. After Kxf8, Re8# is checkmate (Knight covers e7, Bishop covers e8).',
           position: {
-            c8: 'r', e8: 'k',
-            a7: 'p', f6: 'q', g7: 'p', h7: 'p',
-            e4: 'Q',
+            f8: 'r', g8: 'k',
+            f7: 'p', g7: 'p', h7: 'p',
+            b5: 'B', c5: 'Q', d5: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            d1: 'R', g1: 'K',
+            e1: 'R', g1: 'K',
           },
-          highlights: ['e4', 'f6', 'd1']
+          highlights: ['c5', 'f8', 'e1', 'd5', 'b5']
         },
         {
           type: 'text',
-          value: 'Black\'s Queen on f6 is the only piece defending the back rank (specifically d8). White plays **Qxf6!** — sacrificing the Queen to deflect (or simply capturing) the defender. After gxf6, White plays **Rd8#**, delivering checkmate because the King on e8 has no escape (h7 pawn blocks g8, and f7 is not available with the pawn on g7 blocking).'
+          value: 'The Black Rook on f8 is the sole guardian of the back rank. White plays **Qxf8+!** — the Queen moves from c5 to f8 along the diagonal (c5-d6-e7-f8), sacrificing herself to deflect the defender. After **Kxf8**, White delivers **Re8#** — checkmate! The Rook on e8 checks the King on f8 along the 8th rank. The King cannot escape: g8 is controlled by the Rook (same rank), g7 is blocked by Black\'s own pawn, e7 is covered by the Knight on d5, and the King cannot capture the Rook because the Bishop on b5 defends e8.'
         },
         {
           type: 'text',
@@ -204,40 +189,24 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Decoy — White plays Qd8+! luring the King to d8, then Nc6+ forks King and Rook',
-          position: {
-            a8: 'r', e8: 'k', f8: 'b',
-            a7: 'p', c7: 'p', f7: 'p', g7: 'p', h7: 'p',
-            e5: 'Q',
-            b3: 'N',
-            a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            a1: 'R', e1: 'K',
-          },
-          highlights: ['e5', 'e8', 'b3']
-        },
-        {
-          type: 'text',
-          value: 'White plays **Qd8+!** — this is a sacrifice that lures (decoys) the King to d8. After Kxd8, White plays **Ne6+**, forking the King on d8 and the Rook on a8 (the Knight on e6 attacks both c7-direction toward d8 and c5/g5/g7 — wait, let us verify: from e6, a Knight attacks d8, f8, c5, c7, g5, g7, d4, f4). Yes, **Ne6+** checks the King on d8 and attacks the Rook on... actually, let\'s use a cleaner line.'
-        },
-        {
-          type: 'board',
-          caption: 'Decoy — White plays Rd8+! luring the King to d8, then Bb6+ forks King and Rook',
+          caption: 'Decoy — Qd7+! lures the King to d7. Then Nb6+ forks the King on d7 and the Rook on a8.',
           position: {
             a8: 'r', e8: 'k',
-            c7: 'p', f7: 'p', g7: 'p', h7: 'p',
-            a4: 'B',
+            a7: 'p', c7: 'p', f7: 'p', g7: 'p',
+            f5: 'Q',
+            a4: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            d1: 'R', g1: 'K',
+            e1: 'K',
           },
-          highlights: ['d1', 'e8', 'a4']
+          highlights: ['f5', 'e8', 'a4', 'a8']
         },
         {
           type: 'text',
-          value: 'White plays **Rd8+!**, sacrificing the Rook. After Kxd8, White plays **Bb6+!** — the Bishop on b6 checks the King on d8 along the b6-d8 diagonal, and simultaneously attacks the Rook on a8 (since a Bishop on b6 covers a7 and c7 diagonally — actually, the Bishop attacks along the diagonal a5-d8 and the diagonal a7 direction). The key point: **Bb6+** checks the King and after the King moves, White captures the Rook on a8 via Bxa7 or the Bishop controls the escape. This is a decoy: the Rook sacrifice lured the King to a square where it could be forked.'
+          value: 'White plays **Qd7+!** — the Queen moves from f5 to d7 along the diagonal, sacrificing herself with check to the King on e8. Black must capture: **Kxd7**. Now White plays **Nb6+!** — a Knight on b6 attacks a4, a8, c4, c8, d5, and d7. It delivers check to the King on d7 while simultaneously attacking the Rook on a8. After the King moves, **Nxa8** wins the Rook. The Queen sacrifice decoyed the King to d7 — exactly the square where the Knight fork works.'
         },
         {
           type: 'tip',
-          value: 'When you see an enemy piece performing an important defensive job, ask: "Can I force that piece to abandon its duty?" That question is the heart of both deflection and decoy tactics.'
+          value: 'When you see an enemy piece performing an important defensive job, ask yourself: "Can I force that piece to abandon its post?" That question is the heart of both deflection and decoy tactics.'
         }
       ]
     },
@@ -248,16 +217,16 @@ export const lessonContent = {
       content: [
         {
           type: 'text',
-          value: 'The **back rank mate** is one of the most common tactical patterns in chess. It occurs when a King is trapped on the back rank (rank 1 for White, rank 8 for Black) by its own pawns, and an enemy Rook or Queen delivers checkmate along that rank.'
+          value: 'The **back rank mate** is one of the most common tactical patterns in chess. It occurs when a King is trapped on the back rank by its own pawns, and an enemy Rook or Queen delivers checkmate along that rank.'
         },
         {
           type: 'definition',
           term: 'Back Rank Mate',
-          value: 'A checkmate delivered by a Rook or Queen on the opponent\'s back rank (1st or 8th), where the King is trapped by its own pawns and has no escape square.'
+          value: 'Checkmate delivered by a Rook or Queen on the opponent\'s back rank (1st or 8th), where the King is trapped by its own pawns with no escape square.'
         },
         {
           type: 'board',
-          caption: 'Classic back rank mate — White plays Rd8#, checkmate! The King on g8 is trapped by its own pawns on f7, g7, h7',
+          caption: 'Classic back rank mate — Rd8#! The King on g8 is trapped by pawns on f7, g7, and h7.',
           position: {
             g8: 'k',
             f7: 'p', g7: 'p', h7: 'p',
@@ -268,7 +237,7 @@ export const lessonContent = {
         },
         {
           type: 'text',
-          value: 'White plays **Rd8#**. The Rook delivers check on the 8th rank, and the King on g8 has no escape: f7, g7, and h7 are all blocked by Black\'s own pawns. There is no piece to capture the Rook or block the check. This is checkmate!'
+          value: 'White plays **Rd8#**. The Rook slides to d8, delivering check along the 8th rank. The path d8-e8-f8-g8 is completely clear, so the check reaches the King. The King on g8 cannot escape: f7, g7, and h7 are all blocked by Black\'s own pawns, and f8 and h8 are both controlled by the Rook on d8. No piece can capture or block. Checkmate!'
         },
         {
           type: 'text',
@@ -281,7 +250,7 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Back rank defense — Black has played h7-h6, creating an escape square (luft) on h7 for the King',
+          caption: 'Creating luft — Black played h7-h6, giving the King an escape route to h7.',
           position: {
             f8: 'r', g8: 'k',
             f7: 'p', g7: 'p', h6: 'p',
@@ -292,27 +261,27 @@ export const lessonContent = {
         },
         {
           type: 'text',
-          value: 'In this position, Black has wisely played **h7-h6** earlier, creating an escape square on h7 for the King. Now if White plays Rd8, the King simply escapes to h7. This small prophylactic move — called **creating luft** — can save you from devastating back rank mates.'
+          value: 'Here Black has wisely played **h7-h6**, creating an escape square on h7. Now if White tries Rd8, the Rook on f8 captures Rxd8 — and even without the Rook, the King could flee to h7. This small prophylactic pawn move prevents back rank disasters and is well worth the tempo.'
         },
         {
           type: 'board',
-          caption: 'More complex back rank tactic — White plays Qe8+! Rxe8, Rxe8#. The Queen sacrifice clears the way.',
+          caption: 'Queen sacrifice into back rank mate — Qxf8+! Kxf8, Rd8#. Knight covers e7, Bishop covers d8.',
           position: {
-            d8: 'r', g8: 'k',
+            f8: 'r', g8: 'k',
             f7: 'p', g7: 'p', h7: 'p',
-            e3: 'Q',
+            b5: 'B', c5: 'Q', d5: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            e1: 'R', g1: 'K',
+            d1: 'R', g1: 'K',
           },
-          highlights: ['e3', 'e1', 'd8', 'g8']
+          highlights: ['c5', 'f8', 'd1', 'd5', 'b5']
         },
         {
           type: 'text',
-          value: 'White plays **Qe8+!** — a Queen sacrifice. Black is forced to capture with **Rxe8**, and then White plays **Rxe8#**, back rank checkmate. The Queen sacrifice was necessary because the Rook on d8 was guarding e8. By forcing the Rook to e8, White\'s own Rook can then deliver the final blow.'
+          value: 'White plays **Qxf8+!** — the Queen moves from c5 to f8 diagonally, a stunning sacrifice. After **Kxf8**, the back rank is exposed and White delivers **Rd8#** — checkmate. The Rook checks along the 8th rank, and the King on f8 is trapped: g8 is controlled by the Rook, g7 is blocked by a pawn, and the escape square e7 is covered by the Knight on d5. The Queen sacrifice was the key to removing the back rank defender.'
         },
         {
           type: 'tip',
-          value: 'Always be aware of back rank weaknesses — both yours and your opponent\'s. If you haven\'t created luft (h3 or g3 for White, h6 or g6 for Black), you may be vulnerable. Conversely, if your opponent\'s King is boxed in, look for Rook or Queen sacrifices that exploit the back rank.'
+          value: 'Always be alert to back rank weaknesses — yours and your opponent\'s. If your King is boxed in by pawns with no escape, make time to create luft with h3 (or h6). If your opponent\'s King is trapped, look for Rook or Queen sacrifices that crack open the 8th rank.'
         }
       ]
     },
@@ -323,60 +292,58 @@ export const lessonContent = {
       content: [
         {
           type: 'text',
-          value: '**Removing the guard** (also called "removing the defender") is a tactic where you capture or drive away a piece that is performing a critical defensive role. Once the guard is eliminated, the position it was protecting collapses.'
+          value: '**Removing the guard** (also called "removing the defender") is a tactic where you capture or drive away a piece performing a critical defensive role. Once the guard is eliminated, the position it protected collapses.'
         },
         {
           type: 'definition',
           term: 'Removing the Guard',
-          value: 'A tactic where you capture, exchange, or deflect a key defensive piece, thereby exposing a weakness (such as a checkmate threat or an undefended piece) that the defender was preventing.'
+          value: 'A tactic where you capture, exchange, or deflect a key defensive piece, exposing a weakness (such as a checkmate or hanging piece) that the defender was preventing.'
         },
         {
           type: 'text',
-          value: '### Capturing the Defender Allows Checkmate'
+          value: '### Capturing the Defender Delivers Checkmate'
         },
         {
           type: 'board',
-          caption: 'The Knight on f6 is the only piece defending h7. White plays Bxf6! removing the guard, threatening Qxh7#',
+          caption: 'The Knight on g7 shields the King. Qxg7#! captures the guard and delivers checkmate (Bishop on c3 defends g7).',
           position: {
-            a8: 'r', d8: 'q', f8: 'r', g8: 'k',
-            a7: 'p', b7: 'p', c7: 'p', f7: 'p', g7: 'p', h7: 'p',
-            e6: 'B', f6: 'n',
-            d4: 'N',
-            h3: 'Q',
-            a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            a1: 'R', f1: 'R', g1: 'K',
-          },
-          highlights: ['e6', 'f6', 'h3', 'h7']
-        },
-        {
-          type: 'text',
-          value: 'The Knight on f6 is defending h7 (a Knight on f6 controls h7). White plays **Bxf6!**, capturing the defender. After **gxf6**, the h7 pawn is no longer defended by the Knight, and White plays **Qxh7#** — checkmate! The King on g8 has no escape because f7 is blocked by its own pawn and f8 is blocked by the Rook.'
-        },
-        {
-          type: 'text',
-          value: '### Deflecting the Defender Wins Material'
-        },
-        {
-          type: 'board',
-          caption: 'The Black Queen on d7 defends the Knight on b5. White plays Qd4! threatening Qxb5 and attacking the Rook on a7',
-          position: {
-            e8: 'k', f8: 'b',
-            a7: 'r', d7: 'q', f7: 'p', g7: 'p', h7: 'p',
-            b5: 'n',
+            g8: 'k',
+            f7: 'p', g7: 'n', h7: 'p',
+            h6: 'Q',
             c3: 'B',
-            d4: 'Q',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            a1: 'R', e1: 'K', h1: 'R',
+            g1: 'K',
           },
-          highlights: ['d4', 'd7', 'b5', 'a7']
+          highlights: ['h6', 'g7', 'g8', 'c3']
         },
         {
           type: 'text',
-          value: 'The Black Queen on d7 is guarding the Knight on b5. White plays **Qd4!**, attacking the Rook on a7 along the diagonal (via the d4-a7 diagonal). If the Queen moves to defend the Rook, she abandons the Knight on b5, and White captures it. If Black tries to save the Knight instead, White takes the Rook. The defender is overloaded and something must fall.'
+          value: 'The Black Knight on g7 shields the King by occupying the g7 square. White plays **Qxg7#!** — capturing the Knight and delivering checkmate simultaneously. The Queen on g7 checks the King on g8. Can the King escape? f8 is controlled by the Queen (g7 attacks f8 diagonally), and h8 is also controlled by the Queen (g7 attacks h8 diagonally). Can the King capture the Queen? No — the Bishop on c3 defends g7 along the c3-d4-e5-f6-g7 diagonal. The King is trapped — checkmate! Removing the guard and delivering the killing blow were one and the same move.'
+        },
+        {
+          type: 'text',
+          value: '### Overloading the Defender Wins Material'
+        },
+        {
+          type: 'board',
+          caption: 'The Black Queen on d7 must guard both the Knight on b5 and the back rank. She is overloaded — something must fall.',
+          position: {
+            d8: 'r', g8: 'k',
+            a7: 'p', d7: 'q', f7: 'p', g7: 'p', h7: 'p',
+            b5: 'n',
+            c4: 'B',
+            a2: 'P', f2: 'P', g2: 'P', h2: 'P',
+            d1: 'R', g1: 'K',
+          },
+          highlights: ['d1', 'd7', 'b5', 'd8']
+        },
+        {
+          type: 'text',
+          value: 'The Black Queen on d7 has two jobs: she defends the Rook on d8 (preventing Rxd8+) and protects the Knight on b5 (preventing Bxb5). She is **overloaded** — she cannot abandon either duty without losing material. White can exploit this with a move like **Bxb5!** — after **Qxb5**, the Queen has left the d-file and **Rxd8+** wins the Rook. Alternatively, if Black plays **Rxd1+** first, after **Rxd1** the back rank threat is resolved but the Knight on b5 is still hanging. The overloaded defender cannot hold everything together.'
         },
         {
           type: 'tip',
-          value: 'When analyzing a position, identify which pieces are performing defensive duties. Then ask: "Can I capture that defender? Can I deflect it? Can I overload it with a second threat?" This systematic approach reveals removal-of-the-guard tactics that are easy to miss.'
+          value: 'When analyzing a position, ask: "Which enemy piece is holding the position together? Can I capture it, deflect it, or give it a second job it cannot handle?" This systematic thinking reveals removal-of-the-guard opportunities.'
         }
       ]
     },
@@ -387,7 +354,7 @@ export const lessonContent = {
       content: [
         {
           type: 'text',
-          value: 'The most spectacular tactics in chess involve **combinations** — sequences where two or more tactical themes work together. A combination often starts with a sacrifice that sets up a devastating follow-up using a different tactic.'
+          value: 'The most spectacular tactics involve **combinations** — sequences where two or more tactical themes work together. A combination often begins with a sacrifice that sets up a devastating follow-up using a different tactic.'
         },
         {
           type: 'definition',
@@ -400,45 +367,45 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Fork + Pin — White plays Nc6! forking the Queen on a5 and Rook on e7. The Rook on e7 is also pinned to the King by the Rook on e1.',
+          caption: 'Nd5! forks the Queen on b6 and the Rook on f6. The Rook is pinned to the King on e8 by the Rook on f1.',
           position: {
             e8: 'k',
             a7: 'p', f7: 'p',
-            a5: 'q', e7: 'r',
-            c6: 'N',
+            b6: 'q', f6: 'r',
+            d5: 'N',
             a2: 'P', g2: 'P', h2: 'P',
-            e1: 'R', g1: 'K',
+            f1: 'R', g1: 'K',
           },
-          highlights: ['c6', 'a5', 'e7', 'e1', 'e8']
+          highlights: ['d5', 'b6', 'f6', 'f1', 'e8']
         },
         {
           type: 'text',
-          value: 'White plays **Nc6!** — a devastating move that combines two themes. The Knight on c6 **forks** the Queen on a5 and the Rook on e7 (a Knight on c6 attacks a5 and e7). At the same time, the Rook on e7 is **pinned** to the King on e8 by White\'s Rook on e1. The Rook cannot move because it would expose the King to check. Black must move the Queen, and White captures the pinned Rook with Nxe7+.'
+          value: 'White plays **Nd5!** — a devastating move combining two themes. A Knight on d5 attacks b4, b6, c3, c7, e3, e7, f4, and f6. It simultaneously **forks** the Queen on b6 and the Rook on f6. But there is more: the Rook on f6 is **pinned** to the King on e8 by White\'s Rook on f1 along the f-file. The Rook cannot move without exposing the King to check. The Queen must retreat, and White captures the helpless Rook with **Nxf6+**, winning the exchange with check.'
         },
         {
           type: 'text',
-          value: '### Sacrifice + Back Rank Mate Combination'
+          value: '### Decoy Sacrifice + Knight Fork'
         },
         {
           type: 'board',
-          caption: 'Sacrifice + Back Rank Mate — White plays Qxd7! Rxd7, Rc8+ Rd8, Rxd8#',
+          caption: 'Qd7+! Kxd7, Nb6+ forks the King and Rook. A sacrifice sets up the Knight fork.',
           position: {
-            g8: 'k',
-            d7: 'r', f7: 'p', g7: 'p', h7: 'p',
-            d5: 'Q',
-            c1: 'R',
+            a8: 'r', e8: 'k',
+            a7: 'p', c7: 'p', f7: 'p', g7: 'p',
+            f5: 'Q',
+            a4: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            g1: 'K',
+            e1: 'K',
           },
-          highlights: ['d5', 'd7', 'c1', 'g8']
+          highlights: ['f5', 'a4', 'e8', 'a8']
         },
         {
           type: 'text',
-          value: 'White plays **Qxd7!**, sacrificing the Queen for a Rook. After **Rxd7** (Black must recapture), White plays **Rc8+!** — the Rook delivers check on the back rank. Black\'s only move is **Rd8** (blocking with the Rook), and White finishes with **Rxd8#** — checkmate! The King on g8 is trapped by its own pawns on f7, g7, h7. This combination blended a Queen sacrifice with a back rank mating pattern.'
+          value: 'White plays **Qd7+!**, sacrificing the Queen to lure the King to d7. After **Kxd7**, White unleashes **Nb6+** — a Knight on b6 attacks a4, a8, c4, c8, d5, and d7. It checks the King on d7 and attacks the Rook on a8 simultaneously. After the King moves, **Nxa8** wins the Rook. This combination chains a **decoy sacrifice** (the Queen lures the King) with a **Knight fork** (the Knight exploits the King\'s new position). White sacrificed 9 points (Queen) but won 5 points (Rook) — the net material loss is compensated by the resulting position where White\'s Knight is dominant and Black\'s King is exposed.'
         },
         {
           type: 'tip',
-          value: 'To spot combinations, look for positions where multiple tactical themes overlap. A single piece might be simultaneously vulnerable to a fork AND sitting on a weak back rank. The key is to consider sacrifices — if giving up material leads to a forced sequence that wins more back, it is a combination.'
+          value: 'To find combinations, look for positions where multiple tactical themes overlap. The key question: "If I sacrifice something, does a forcing sequence emerge that wins even more?" Willingness to calculate sacrifices is what separates tactical players from passive ones.'
         }
       ]
     },
@@ -449,26 +416,27 @@ export const lessonContent = {
       content: [
         {
           type: 'text',
-          value: 'Test your tactical vision! In each position below, it is **White to move**. Find the best move before reading the solution. These puzzles mix all the tactical themes from this course.'
+          value: 'Test your tactical vision! In each position below, it is **White to move**. Try to find the best move before reading the solution. These puzzles cover all the tactical themes from this course.'
         },
         {
           type: 'text',
-          value: '### Puzzle 1: Back Rank Strike'
+          value: '### Puzzle 1: Mate in One'
         },
         {
           type: 'board',
-          caption: 'Puzzle 1 — White to move. Find the winning tactic!',
+          caption: 'Puzzle 1 — White to move. Checkmate in one!',
           position: {
-            d8: 'r', g8: 'k',
-            a7: 'p', f7: 'p', g7: 'p', h7: 'p',
-            b2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            d1: 'R', e1: 'R', g1: 'K',
+            g8: 'k',
+            f7: 'p', g7: 'p', h7: 'p',
+            b4: 'n',
+            a2: 'P', f2: 'P', g2: 'P', h2: 'P',
+            d1: 'R', g1: 'K',
           },
-          highlights: ['g8']
+          highlights: ['d1', 'g8']
         },
         {
           type: 'text',
-          value: '**Solution:** White plays **Rxd8+! Rxd8** (forced — wait, there is only one Black Rook). Actually: **Re8+! Rxe8, Rxe8#** — no. Let us set this up cleanly. White plays **Rd8+!** — but the Rook is already there. The answer is **Re8+!** — the e1 Rook moves to e8, giving check. After **Rxe8** (the d8 Rook captures), White plays **Rxe8#** — the d1 Rook recaptures on e8, delivering back rank checkmate. The King on g8 is trapped by f7, g7, h7.'
+          value: '**Solution: Rd8#!** The back rank is completely unguarded. The Rook slides to d8 and the King on g8 is checkmated — trapped by its own pawns on f7, g7, and h7 with no piece able to capture or block. Always check for unguarded back ranks!'
         },
         {
           type: 'text',
@@ -476,19 +444,19 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Puzzle 2 — White to move. Find the Knight fork!',
+          caption: 'Puzzle 2 — White to move. Win the Queen with a Knight fork!',
           position: {
-            e8: 'k', f8: 'r',
-            a7: 'p', c7: 'p', d7: 'q', f7: 'p',
-            e5: 'N',
+            e8: 'k',
+            a7: 'p', b7: 'q', f7: 'p', g7: 'p',
+            e4: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            d1: 'R', g1: 'K',
+            a1: 'R', e1: 'K',
           },
-          highlights: ['e5']
+          highlights: ['e4', 'e8', 'b7']
         },
         {
           type: 'text',
-          value: '**Solution:** White plays **Nc6!** — the Knight on c6 forks the King on e8 (a Knight on c6 attacks e7, but not e8 directly). Let me correct: from e5, a Knight can go to c6, d7, f7, g6, g4, f3, d3, c4. **Nf7!** forks the Queen on d7? No — from f7, a Knight attacks d8, e5, g5, h8, h6, d6. Not d7. The correct move is **Nd7!** — wait, that captures the Queen directly. Nxd7 wins the Queen outright since the Knight on e5 attacks d7. Even simpler — **Nxd7** wins the Queen!'
+          value: '**Solution: Nd6+!** From e4, the Knight moves to d6. A Knight on d6 attacks b5, b7, c4, c8, e4, e8, f5, and f7. It checks the King on e8 and simultaneously attacks the Queen on b7! After the King moves, White plays Nxb7, winning the Queen.'
         },
         {
           type: 'text',
@@ -496,91 +464,19 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Puzzle 3 — White to move. Find the skewer!',
+          caption: 'Puzzle 3 — White to move. Win a Rook with a Bishop skewer!',
           position: {
-            a8: 'k',
-            a6: 'q',
-            h2: 'P', g2: 'P', f2: 'P',
-            a1: 'R', g1: 'K',
-          },
-          highlights: ['a1']
-        },
-        {
-          type: 'text',
-          value: '**Solution:** White plays **Ra8+!** — the Rook skewers the King on a8... wait, the King IS on a8. The Rook on a1 checks the King? No — the Queen on a6 is in the way. Let me re-read: the a6 Queen blocks the a-file. This doesn\'t work. Corrected puzzle below.'
-        },
-        {
-          type: 'board',
-          caption: 'Puzzle 3 (corrected) — White to move. Find the skewer!',
-          position: {
-            a8: 'k',
-            b7: 'p',
-            e5: 'q',
-            h2: 'P', g2: 'P', f2: 'P',
-            e1: 'R', g1: 'K',
-          },
-          highlights: ['e1', 'e5']
-        },
-        {
-          type: 'text',
-          value: '**Solution:** White plays **Re8+!** — the Rook checks the King on a8? No, e8 does not check a8. Let me fix this properly.'
-        },
-        {
-          type: 'board',
-          caption: 'Puzzle 3 — White to move. Win the Queen with a skewer!',
-          position: {
-            h8: 'k',
-            g7: 'p', h7: 'p',
-            h4: 'q',
-            f2: 'P', g2: 'P',
-            h1: 'R', g1: 'K',
-          },
-          highlights: ['h1', 'h4', 'h8']
-        },
-        {
-          type: 'text',
-          value: '**Solution:** White plays **Rh1-h8+!** — wait, the King is on h8. The Rook can\'t go there. The Rook on h1 attacks along the h-file: h1 sees h4 (Queen) and h8 (King), but the Queen on h4 blocks the line to h8. Correct approach: **Rh1xh4** just captures the Queen? That works but isn\'t a skewer. Here is the proper skewer puzzle:'
-        },
-        {
-          type: 'board',
-          caption: 'Puzzle 3 (final) — White to move. Skewer!',
-          position: {
-            g8: 'k',
-            f7: 'p', g7: 'p', h7: 'p',
-            b5: 'q',
-            g5: 'B',
+            g8: 'r',
+            h7: 'p',
+            d5: 'k', e5: 'p',
             f2: 'P', g2: 'P', h2: 'P',
-            g1: 'K',
+            a2: 'B', e1: 'K',
           },
-          highlights: ['g5', 'b5']
+          highlights: ['a2', 'd5', 'g8']
         },
         {
           type: 'text',
-          value: '**Solution:** White plays **Bd8!** — nope. Let me think. The Bishop is on g5. A Bishop on g5 can go along the diagonal to d8, c3, etc. We need the Bishop to check the King and skewer the Queen behind. **Be7** doesn\'t check. This needs a different approach. White plays **Bc1** — attacks the Queen on b5? No, c1 doesn\'t attack b5. The right skewer: **Bd2**, threatening... No.'
-        },
-        {
-          type: 'text',
-          value: 'OK — let us reset with clean, verified puzzles for the remainder of this section.'
-        },
-        {
-          type: 'text',
-          value: '### Puzzle 3: Pin for the Win'
-        },
-        {
-          type: 'board',
-          caption: 'Puzzle 3 — White to move. Use a pin to win material!',
-          position: {
-            a8: 'r', e8: 'k',
-            d7: 'n', f7: 'p', g7: 'p', h7: 'p',
-            a4: 'B',
-            a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            a1: 'R', g1: 'K',
-          },
-          highlights: ['a4', 'd7', 'e8']
-        },
-        {
-          type: 'text',
-          value: '**Solution:** The Bishop on a4 pins the Knight on d7 to the King on e8 along the a4-e8 diagonal. The Knight cannot move without exposing the King to check. White can pile up on the pinned Knight or win it with a timely capture. For example, White can simply play a move like **Rd1**, adding pressure, and the Knight remains frozen.'
+          value: '**Solution: Bb3+!** The Bishop moves from a2 to b3, checking the King on d5 along the b3-c4-d5 diagonal. The King must step off the diagonal (e.g., Kc6 or Ke4). Then the Bishop continues along the same diagonal to capture the Rook: **Bxg8**. The path from b3 through e6 and f7 to g8 is clear, so the Rook is lost.'
         },
         {
           type: 'text',
@@ -588,79 +484,65 @@ export const lessonContent = {
         },
         {
           type: 'board',
-          caption: 'Puzzle 4 — White to move. Remove the defender!',
+          caption: 'Puzzle 4 — White to move. Remove the guard and checkmate!',
           position: {
-            a8: 'r', g8: 'k',
-            a7: 'p', f7: 'p', g7: 'n', h7: 'p',
-            h5: 'Q',
+            g8: 'k',
+            f7: 'p', g7: 'n', h7: 'p',
+            h6: 'Q',
+            c3: 'B',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            a1: 'R', g1: 'K',
+            g1: 'K',
           },
-          highlights: ['h5', 'g7', 'h7']
+          highlights: ['h6', 'g7', 'g8', 'c3']
         },
         {
           type: 'text',
-          value: '**Solution:** The Knight on g7 defends h5 from invasion and blocks the g-file. But more importantly, h7 is defended only by the King on g8. White plays **Qxh7+! Kf8** (King must flee since h7 is taken), and the position is winning. Actually even simpler: **Qxh7#**? After Qxh7+, Kf8, White has a huge attack. The Knight on g7 was the only piece providing cover and by striking h7 White rips open the King.'
+          value: '**Solution: Qxg7#!** The Queen captures the Knight on g7, removing the guard and delivering checkmate in one move. The Queen on g7 checks the King on g8, and all escape squares are covered: f8 and h8 are both attacked by the Queen diagonally. The King cannot capture the Queen because the Bishop on c3 defends g7.'
         },
         {
           type: 'text',
-          value: '### Puzzle 5: Deflection'
+          value: '### Puzzle 5: Deflection + Back Rank'
         },
         {
           type: 'board',
-          caption: 'Puzzle 5 — White to move. Deflect the defender!',
+          caption: 'Puzzle 5 — White to move. Sacrifice and checkmate in two!',
           position: {
-            d8: 'r', g8: 'k',
-            c7: 'q', f7: 'p', g7: 'p', h7: 'p',
-            e5: 'B',
+            f8: 'r', g8: 'k',
+            f7: 'p', g7: 'p', h7: 'p',
+            b5: 'B', c5: 'Q', d5: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            c1: 'R', g1: 'K',
+            e1: 'R', g1: 'K',
           },
-          highlights: ['c1', 'c7', 'd8', 'e5']
+          highlights: ['c5', 'f8', 'e1']
         },
         {
           type: 'text',
-          value: '**Solution:** The Queen on c7 defends the Rook on d8 (and guards the c-file). White plays **Bf6!** — threatening Qh8# (if White had a Queen... wait, White has no Queen here). Let me reconsider. White plays **Rc8!** — the Rook attacks d8 by pinning/deflecting. Actually **Rxc7** just wins the Queen since the Rook on c1 can capture the Queen on c7. After **Rxc7**, White wins the Queen for a Rook. But this is just a capture, not a deflection. The position was meant to show: the Queen guards the back rank. **Bg7!** — no. Best answer: **Rc8!** deflects/overloads — if Qxc8, the Queen leaves c7 and no longer performs its duties. But what duties? There is no immediate follow-up. Let me provide a cleaner puzzle.'
+          value: '**Solution: Qxf8+! Kxf8, Re8#.** The Queen sacrifices on f8, forcing the King to capture. Then the Rook delivers back rank checkmate on e8. The King on f8 is trapped: g8 is controlled by the Rook, g7 is blocked by a pawn, e7 is covered by the Knight on d5, and the King cannot capture the Rook because the Bishop on b5 defends e8. A two-move combination using deflection and back rank mate.'
+        },
+        {
+          type: 'text',
+          value: '### Puzzle 6: Decoy + Fork'
         },
         {
           type: 'board',
-          caption: 'Puzzle 5 (clean) — White to move. Deflect the Queen!',
+          caption: 'Puzzle 6 — White to move. Sacrifice the Queen and win material!',
           position: {
-            c8: 'r', g8: 'k',
-            d7: 'q', f7: 'p', g7: 'p', h7: 'p',
+            a8: 'r', e8: 'k',
+            a7: 'p', c7: 'p', f7: 'p', g7: 'p',
+            f5: 'Q',
+            a4: 'N',
             a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            d1: 'R', e1: 'R', g1: 'K',
+            e1: 'K',
           },
-          highlights: ['d1', 'e1', 'd7', 'c8']
+          highlights: ['f5', 'a4', 'e8']
         },
         {
           type: 'text',
-          value: '**Solution:** The Queen on d7 is the only piece defending c8 (along with the Rook itself on c8). White plays **Rd8+!** — if **Qxd8, Re8+** wins (the Queen is deflected from the defense, and Re8+ leads to back rank mate after Qxe8, or if Qxe8 then the Queen was deflected... actually after Qxd8, Re8+ Qxe8 and that\'s just a trade). Better: after **Rd8+! Qxd8, Re8+! Qxe8** and material is traded equally. This needs the back rank to be truly mate. With f7, g7, h7 blocking, after Rd8+ Qxd8, Re8+! **Qxe8** is forced, but that\'s just trading. Unless: Rd8+ **Rxd8**, then **Re8+! Rxe8#** — no, that\'s not mate, White\'s Rook is captured. Hmm. We need TWO Rooks vs one defender. After **Rd8+! Rxd8** (the c8 Rook captures), **Re8+!** and now the Queen must block with **Qe8** (since the Rook on d8 can\'t go to e8), and then there\'s no more attacker. I\'ll provide a cleaner finish.'
-        },
-        {
-          type: 'text',
-          value: '### Puzzle 6: Fork to Win'
-        },
-        {
-          type: 'board',
-          caption: 'Puzzle 6 — White to move. Win material with a fork!',
-          position: {
-            e8: 'k',
-            b7: 'p', d7: 'r', f7: 'p',
-            b6: 'q',
-            d4: 'N',
-            a2: 'P', f2: 'P', g2: 'P', h2: 'P',
-            d1: 'R', g1: 'K',
-          },
-          highlights: ['d4', 'e8', 'b6']
-        },
-        {
-          type: 'text',
-          value: '**Solution:** White plays **Nc6!** — the Knight lands on c6, forking the Queen on b6 and... let\'s verify: a Knight on c6 attacks a5, a7, b4, b8, d4, d8, e5, e7. It attacks b8 and d8 but not b6 or e8 directly. So Nc6 doesn\'t fork those pieces. Instead: **Ne6!** — a Knight on e6 attacks c7, c5, d4, d8, f4, f8, g5, g7. It attacks d8 and f8 near the King, and also c7. Not b6. What about **Nb5** — attacks a3, a7, c3, c7, d4, d6. Attacks the Queen on b6? No, b6 is not in a Knight\'s range from b5. **Nc2** attacks a1,a3,b4,d4,e1,e3 — no. **Nf5** attacks d4,d6,e3,e7,g3,g7,h4,h6 — not b6. **Ne2** — no. The correct fork square: **Nc6** doesn\'t work, **Nd5** — attacks b4, b6, c3, c7, e3, e7, f4, f6. **Nd5 attacks b6!** And e7. So **Nd5!** forks the Queen on b6 and threatens Ne7+ winning. After **Nd5!** the Queen is attacked and White threatens **Ne7+** forking King and Rook.'
+          value: '**Solution: Qd7+! Kxd7, Nb6+** and then **Nxa8.** The Queen sacrifices on d7 with check, decoying the King to d7. Then the Knight leaps to b6, forking the King on d7 and the Rook on a8. After the King moves, Nxa8 wins the Rook. A beautiful decoy sacrifice into a Knight fork!'
         },
         {
           type: 'tip',
-          value: 'Solving puzzles regularly is the best way to improve your tactical vision. Try to spend at least 10-15 minutes per day on tactical puzzles. Over time, patterns will become second nature and you will spot tactics in your own games instantly.'
+          value: 'Solving tactical puzzles daily is the single most effective way to improve your chess. Aim for at least 10-15 minutes of puzzle training every day. Over time, these patterns will become second nature and you will spot them instantly in your own games.'
         }
       ]
     }
