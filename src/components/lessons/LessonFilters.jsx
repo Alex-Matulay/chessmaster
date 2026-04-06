@@ -38,9 +38,6 @@ export function LessonFilters({ category, level, sort, onCategoryChange, onLevel
           className="border border-slate-200 rounded-lg px-3 py-2 text-sm bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
         >
           <option value="popular">Most Popular</option>
-          <option value="price-asc">Price: Low to High</option>
-          <option value="price-desc">Price: High to Low</option>
-          <option value="rating">Highest Rated</option>
         </select>
       </div>
     </div>

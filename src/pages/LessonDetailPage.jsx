@@ -1,9 +1,8 @@
 import { useParams, Link } from 'react-router-dom'
-import { Clock, BookOpen, User, BarChart3, ArrowLeft, Play } from 'lucide-react'
+import { Clock, BookOpen, BarChart3, ArrowLeft, Play } from 'lucide-react'
 import lessons from '../data/lessons.json'
 import { Badge } from '../components/ui/Badge'
 import { Button } from '../components/ui/Button'
-import { StarRating } from '../components/ui/StarRating'
 import { CurriculumAccordion } from '../components/lessons/CurriculumAccordion'
 
 export function LessonDetailPage() {
@@ -32,17 +31,11 @@ export function LessonDetailPage() {
           <div className="flex flex-wrap gap-2 mb-4">
             <Badge>{lesson.category}</Badge>
             <Badge>{lesson.level}</Badge>
-            {lesson.price === 0 && <Badge>Free</Badge>}
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">{lesson.title}</h1>
 
-          <div className="flex items-center gap-4 mb-6">
-            <StarRating rating={lesson.rating} reviewsCount={lesson.reviewsCount} />
-          </div>
-
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-8">
-            <span className="flex items-center gap-1.5"><User size={16} />{lesson.instructor}</span>
             <span className="flex items-center gap-1.5"><Clock size={16} />{lesson.duration}</span>
             <span className="flex items-center gap-1.5"><BookOpen size={16} />{totalLessons} lessons</span>
             <span className="flex items-center gap-1.5"><BarChart3 size={16} />{lesson.level}</span>
@@ -61,8 +54,6 @@ export function LessonDetailPage() {
 
         <div className="lg:col-span-1">
           <div className="sticky top-24 bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-            <p className="text-2xl font-bold text-emerald-600 mb-4">Free</p>
-
             <Link to={`/lessons/${lesson.slug}/learn`} className="no-underline block mb-4">
               <Button size="lg" className="w-full">
                 <Play size={16} /> Start Lesson
@@ -81,10 +72,6 @@ export function LessonDetailPage() {
               <div className="flex justify-between">
                 <span>Level</span>
                 <span className="font-medium text-slate-900">{lesson.level}</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Instructor</span>
-                <span className="font-medium text-slate-900">{lesson.instructor}</span>
               </div>
             </div>
           </div>

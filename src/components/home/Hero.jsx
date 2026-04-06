@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Button } from '../ui/Button'
-import { BookOpen, ShoppingBag } from 'lucide-react'
+import { BookOpen } from 'lucide-react'
 
 export function Hero() {
   return (
@@ -34,12 +34,6 @@ export function Hero() {
               <Button size="lg" className="w-full sm:w-auto">
                 <BookOpen size={18} />
                 Start Learning
-              </Button>
-            </Link>
-            <Link to="/products">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto border-white/30 text-white hover:bg-white/10">
-                <ShoppingBag size={18} />
-                Browse Products
               </Button>
             </Link>
           </div>

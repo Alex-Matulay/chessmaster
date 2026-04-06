@@ -1,14 +1,7 @@
 import { useState } from 'react'
 import { Hero } from '../components/home/Hero'
 import { FeaturedLessons } from '../components/home/FeaturedLessons'
-import { Users, BookOpen, Award, TrendingUp, CheckCircle } from 'lucide-react'
-
-const stats = [
-  { icon: Users, label: 'Students', value: '2,500+' },
-  { icon: BookOpen, label: 'Lessons', value: '50+' },
-  { icon: Award, label: 'Resources', value: '100+' },
-  { icon: TrendingUp, label: 'Avg Rating', value: '4.8' },
-]
+import { CheckCircle } from 'lucide-react'
 
 export function HomePage() {
   const [email, setEmail] = useState('')
@@ -36,20 +29,6 @@ export function HomePage() {
   return (
     <div>
       <Hero />
-
-      <div className="bg-white border-y border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map(({ icon: Icon, label, value }) => (
-              <div key={label} className="text-center">
-                <Icon className="mx-auto mb-2 text-emerald-600" size={24} />
-                <div className="text-2xl font-bold text-slate-900">{value}</div>
-                <div className="text-sm text-slate-500">{label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
 
       <FeaturedLessons />
 
